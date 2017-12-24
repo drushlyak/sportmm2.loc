@@ -1,0 +1,655 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>title</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/rhinoslider-1.05.css" rel="stylesheet" type="text/css" />
+<link href="css/skin.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/rhinoslider-1.05.min.js"></script>
+
+<script type="text/ecmascript">
+$(document).ready(function() {
+	$('#slideshow').rhinoslider({
+		effect: 'fade',
+		controlsMousewheel: false,
+		controlsKeyboard: false,
+		controlsPrevNext: false,
+		controlsPlayPause: false,
+		showBullets: 'never',
+		autoPlay: true,
+		showControls: 'never'
+	});
+	
+	$('#slideshow li').hover(function(){
+		$(this).find('.msg').fadeIn("fast");
+    },function(){
+	    $(this).find('.msg').fadeOut("fast");
+	});
+	
+		$("#side-menu > div.type.active").children("form").slideDown("fast");
+		$('#side-menu > div.type > a').append('<span class="dropdown-btn">&nbsp;</span>');
+		$('#side-menu > div.type > .dropdown-btn, #side-menu > div.type > a ').click(function(){
+			var currentListItem = $(this).parent();
+			var currentDropDown = $(currentListItem).children("form");
+			if ($(currentListItem).hasClass("active")) {
+				$(currentListItem).removeClass("active");
+				$(currentDropDown).slideUp("fast");
+				return false;
+			} else {
+				$(currentDropDown).slideDown("fast");
+				$("#side-menu > div.type").not(currentListItem).removeClass("active");
+				$("#side-menu > div.type > form").not(currentDropDown).slideUp("fast");
+				$(currentListItem).addClass("active");
+				return false;
+			}
+		});
+		
+	function changeCheck(el){
+	     var el = el,
+		    input = el.find("input").eq(0);
+		 if(!input.attr("checked")) {
+			el.css({backgroundColor:'#f00',borderColor:'#f00'});
+			el.closest('div').children('.t_ch').css({color:'#f00',fontWeight:'bold'});
+			if(el.attr('rel','nobold')){el.closest('div').children('.t_ch').css({fontWeight:'normal'});}
+			input.attr("checked", true)
+		} else {
+			el.css({backgroundColor:'#e5e5e5',borderColor:'#ccc'});	
+			el.closest('div').children('.t_ch').css({color:'#666',fontWeight:'normal'});
+			input.attr("checked", false)
+		}
+     return true;};
+	 
+	function changeCheck2(el){
+	     var el = el,
+		    input = el.find("input").eq(0);		
+		if(!input.attr("checked")) {
+			el.css({backgroundImage:'url(images/chk2.png)'});
+			input.attr("checked", true)
+			} else {
+			el.css({backgroundImage:'url(images/chk1.png)'});	
+			input.attr("checked", false)
+			}
+	return true;};
+	
+	function changeCheckStart(el)
+	{var el = el,
+			input = el.find("input").eq(0);
+		 el.find('span').prepend(el.find("input").attr('value'));			
+		if(input.attr("checked")) {
+			el.css({backgroundColor:'#f00',borderColor:'#f00'});
+			el.closest('div').children('.t_ch').css({color:'#f00',fontWeight:'bold'});
+			if(el.attr('rel','nobold')){el.closest('div').children('.t_ch').css({fontWeight:'normal'});}
+			}
+	     return true;};
+		 
+	function changeCheckStart2(el)
+	{var el = el,
+			input = el.find("input").eq(0);
+		 el.find('span').prepend(el.find("input").attr('value'));			
+		if(input.attr("checked")) {
+			el.css({backgroundImage:'url(images/chk2.png) 0 0 no-repeat;'});
+			}
+	     return true;};		 
+	
+	jQuery(".niceCheck").click(	function() { changeCheck(jQuery(this));	});
+	jQuery(".niceCheck").each(	function() { changeCheckStart(jQuery(this));});	
+	jQuery(".niceCheck2.chk2").click(	function() { changeCheck2(jQuery(this));	});
+	jQuery(".niceCheck2.chk2").each(	function() { changeCheckStart2(jQuery(this));});
+
+	
+	$('.cat_btn1').click(function(){
+			if($('.cat_btn1').not('active')){
+				$('.catalog > *').remove('.clear');
+				$('.catalog > .prod2').removeClass('first')
+				$('.catalog > .prod2:nth-child(3n+1)').addClass('first')
+				$('.catalog > .prod2:nth-child(3n)').after('<div class="clear"></div>')
+				$('.catalog').removeClass('catalog2');
+				$('.cat_btn1').addClass('active');
+				$('.cat_btn2').removeClass('active');}			
+	  });
+	
+	$('.cat_btn2').click(function(){
+			if($('.cat_btn2').not('active')){
+				$('.catalog > *').remove('.clear');
+				$('.catalog > .prod2').removeClass('first')
+				$('.catalog > .prod2:nth-child(2n+1)').addClass('first')
+				$('.catalog > .prod2:nth-child(2n)').after('<div class="clear"></div>')
+				$('.catalog').addClass('catalog2');
+				$('.cat_btn2').addClass('active');
+				$('.cat_btn1').removeClass('active');}			
+	  });	
+
+		$('.counter .count').attr('value','1');
+		$('.counter .price').attr('rel',$('.counter .price').text());
+		$('.counter .sum').attr('rel',$('.counter .sum').text());
+		
+		function priceWrap(el) {
+			var el = el;
+			var str = el.text();
+			var l = str.length;
+			var dot_i = str.indexOf('.');
+			var str1 = str.substr(dot_i,l);
+			str = str.substr(0,dot_i) + '<sup>' + str1 + '</sup>';
+			el.html(str);
+			return true;};
+			
+		function incr(el) {
+			var el = el;
+			var sum_el = el.closest('.counter').find('.sum');
+			var count = el.closest('.counter').children('.count');
+			var price = el.closest('.counter').find('.price').text();
+			var sum = sum_el.html();
+			var i = count.attr('value');
+			i++;
+			count.attr('value',i);
+			sum = i * price;
+			parseFloat(sum);
+			sum=sum.toFixed(2)
+			sum_el.text(sum);
+			priceWrap(sum_el);
+			sum_el.attr('rel',sum);
+			return true;
+			}
+			
+		function decr(el) {
+			var el = el;
+			var sum_el = el.closest('.counter').find('.sum');
+			var count = el.closest('.counter').children('.count');
+			var price = el.closest('.counter').find('.price').text();
+			var sum = sum_el.html();
+			var i = count.attr('value');
+			i--;
+			count.attr('value',i);
+			sum = i * price;
+			parseFloat(sum);
+			sum=sum.toFixed(2)			
+			sum_el.text(sum);
+			priceWrap(sum_el);
+			sum_el.attr('rel',sum);
+			return true;
+			}			
+		
+		$(".counter .inc").click(function(){incr($(this))});
+		$(".counter .dec").click(function(){decr($(this))});
+		$(".counter .price , .counter .sum , .all_sum .sum").each(function(){priceWrap(jQuery(this));});
+
+		jQuery('.carousel').jcarousel({
+			wrap: 'circular',
+			visible: 5,
+			scroll: 1
+		});
+	
+		$('.sm_img').click(function(){
+			var img_src=$(this).attr('rev');
+			var img_gal=$(this).attr('rel');
+			$(this).closest('.img_box').children('.big_img').find('img').attr('src',img_src);
+			$(this).closest('.img_box').children('.big_img').find('a').attr('href',img_gal);
+		});	
+	
+});
+</script>
+
+
+<!-- ZOOM  
+
+если менять имя класса, то поменять и класс в диве с картинками на строке 122. Вынести стиль в общий файл ксс.
+-->
+
+<script src="./zoom/cloud-zoom.1.0.3.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="./zoom/cloud-zoom.css" />
+
+<!--END -->
+</head>
+
+<body>
+
+<div class="wrapper subpage">
+
+    <div class="hd_wrap">
+    	<div class="wrap">
+        	<div class="header">
+            	<div class="top_bl">
+                	<a class="logo" href="#"><img src="images/logo.png" alt="" width="100%" height="33" /></a>
+                    <ul id="menu-top">
+                    	<li class="active"><a href="#">О нас</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Оплата и доставка</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <form class="search">
+                    	<input type="text" value="Поиск" />
+                        <input type="submit" value="" />
+                    </form>
+                    <a class="add_cart" href="#">
+                    	<span class="num">25</span>
+                        <span class="txt">товаров</span>
+                        <span class="pic"></span>
+                    </a>
+                    <ul class="login">
+                    	<li><a href="#">Вход</a></li>
+                        <li><a href="#">Регистрация</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cont_wrap">
+    	<div class="wrap">
+        	<div class="content">
+            	<div class="lc">
+					<ul class="nav_pad">
+                    	<li><a href="">Главная</a></li>
+                        <li><a href="">Каталог</a></li>
+                        <li class="active"><a href="">Декор</a></li>
+                    </ul>
+                    <div class="prod_filter">
+                    	<ul class="ttl">
+                        	<li><a href="#">ДЕКОР</a></li>
+                            <li class="active"><a href="#">ВАЗЫ</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="det_item">
+						<div class="img_box" >
+                            <div class="big_img" >
+								
+							
+							 
+                                    <!-- в ссылки линк на больше изображение для увелечения!
+                                    
+                                    adjustX: 200, adjustY: 0 - параметры появления лупы относительно картинки. поменять по дизайну.
+                                    zoomWidth: 200, zoomHeight:150 - высота, ширина слоя, который появляется при наведении.
+                                    
+                                    -->
+                            	   <a class="cloud-zoom" style="border:1px solid #ccc;"  href="img/1_big.jpg" id='zoom1' rel="group1" zoom="position: 'right', adjustX: 20, adjustY: 0, zoomWidth: 520, zoomHeight:438"> 
+		                              <!--здесь среднее для показа на странице -->
+                                      <img src="img/1_medium.jpg" alt="" width="437" height="438" id="zoom_image" />
+	                               </a>
+								
+								<!--old
+                                <a class="gal_img" rel="group1" href="images/gal_img01.jpg">
+                                    <img src="images/big_img01.jpg" width="437" height="438" alt=""/>
+                                </a>
+								END old-->
+                            </div>
+                            <div class="carousel_box">
+                                <ul class="carousel jcarousel-skin-tango">    
+									<li>
+									<a class="cloud-zoom-gallery" href="img/1_big.jpg" title='' rel="img/1_big.jpg" zoom="useZoom: 'zoom1', smallImage: 'img/1_medium.jpg'">
+                            				<img src="img/1_small.jpg" alt="" width="58" height="58" />
+                            			</a>
+										<span class="border"></span>
+									</li>
+									<li>
+									<a class="cloud-zoom-gallery" href="img/2_big.jpg" title='' rel="img/2_big.jpg" zoom="useZoom: 'zoom1', smallImage: 'img/2_medium.jpg'">
+                            				<img src="img/2_small.jpg" alt="" width="58" height="58" />
+                            			</a>
+										<span class="border"></span>
+									</li>
+									<li>
+									<a class="cloud-zoom-gallery" href="img/1_big.jpg" title='' rel="img/1_big.jpg" zoom="useZoom: 'zoom1', smallImage: 'img/1_medium.jpg'">
+                            				<img src="img/1_small.jpg" alt="" width="58" height="58" />
+                            			</a>
+										<span class="border"></span>
+									</li>
+									<li>
+									<a class="cloud-zoom-gallery" href="img/2_big.jpg" title='' rel="img/2_big.jpg" zoom="useZoom: 'zoom1', smallImage: 'img/2_medium.jpg'">
+                            				<img src="img/2_small.jpg" alt="" width="58" height="58" />
+                            			</a>
+										<span class="border"></span>
+									</li>
+									<li>
+									<a class="cloud-zoom-gallery" href="img/1_big.jpg" title='' rel="img/1_big.jpg" zoom="useZoom: 'zoom1', smallImage: 'img/1_medium.jpg'">
+                            				<img src="img/1_small.jpg" alt="" width="58" height="58" />
+                            			</a>
+										<span class="border"></span>
+									</li>
+									<li>
+									<a class="cloud-zoom-gallery" href="img/2_big.jpg" title='' rel="img/2_big.jpg" zoom="useZoom: 'zoom1', smallImage: 'img/2_medium.jpg'">
+                            				<img src="img/2_small.jpg" alt="" width="58" height="58" />
+                            			</a>
+										<span class="border"></span>
+									</li>
+								                   
+                              </ul>
+                          </div>                         
+                      </div>
+                        <div class="prod_inf">
+                        	<h6 class="ttl">Ваза Notes 40</h6>
+                            <p><strong>Артикул: 65890</strong></p>
+                            <p>Размер - 0.23 x 0.40 x 0.23 <br />Материал - стекло, фольга, цемент</p>
+                            <p>Остаток на складе - 1 шт</p>
+                            <div class="counter_box">
+                                <div class="price_head">
+                                    <p class="num_head">Количество:</p>
+                                    <div class="clear"></div>
+                                </div>
+                                <form class="counter">
+                                    <span class="price_box"><span class="price">230.13</span><span class="cur">грн</span></span>
+                                    <a class="dec"></a><input class="count" value="1" type="text" /><span class="type">шт.</span><a class="inc"></a>
+                                    <span class="sum_box"><span class="sum">230.13</span><span class="cur">грн</span></span>
+                                    <span class="clear"></span>
+                                </form>
+                            </div>   
+                            <a class="add2cart" href="#">В корзину</a>
+                            <div class="clear"></div>                     	
+                        </div>
+                        <p>Уникальность "Вазы" заключается в том, что здесь все создано для комфорта каждого покупателя: высокий уровень обслуживания, широкий ассортимент и демократичные цены. </p>
+                        <p>Уникальность "Вазы" заключается в том, что здесь все создано для комфорта каждого покупателя: высокий уровень обслуживания, широкий ассортимент и демократичные цены. Уникальность "Вазы" заключается в том, что здесь все создано для комфорта каждого </p>
+                        <p>Уникальность "Вазы" заключается в том, что здесь все создано для комфорта каждого покупателя: высокий уровень обслуживания, широкий ассортимент и демократичные цены. Уникальность "Вазы" заключается в том, что здесь все создано для комфорта каждого покупателя: высокий уровень обслуживания, широкий ассортимент и демократичные цены. Уникальность "Вазы" заключается в том, что здесь все создано для комфорта каждого покупателя: высокий уровень обслуживания, широкий ассортимент и демократичные цены. Уникальность "Вазы" заключается в том, что здесь все создано для комфорта каждого покупателя: высокий уровень обслуживания, широкий ассортимент и демократичные цены. </p>
+                  <div class="clear"></div>
+                  </div>
+                    
+                </div>
+                
+                <div class="rc">
+                	<div class="catalog_filter">
+	                    <h6 class="title">Каталог</h6>
+                   	<div id="side-menu">
+                        	<div class="type">          
+                            	<a href="#">Декор</a>
+                                <form>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Картины и постеры</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Вазы</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Коробки и корзины</span>
+                                        <div class="clear"></div>
+                                    </div>   
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Подсвечники и свечи</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Рамки</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Копилки</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Пепельницы</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Часы и Будильники</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Подушки и покрывала</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Кувшины и графины</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Бокалы и стаканы</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Тарелки и миски</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Чашки и кружки </span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Подносы</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Ковры и коврики </span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Прочее</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        	<div class="type active">
+                            	<a href="#">Мебель</a>
+                                <form>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Тарелки и миски</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Чашки и кружки </span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Подносы</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Ковры и коврики </span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Прочее</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        	<div class="type">
+                            	<a href="#">Свет</a>
+                                <form>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Пепельницы</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Часы и Будильники</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Подушки и покрывала</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Кувшины и графины</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                	<div class="line">
+                                        <span class="niceCheck" unselectable="on" >
+                                            <input type="checkbox" name="ch1" id="" value="">
+                                        </span>
+                                        <span class="t_ch">Бокалы и стаканы</span>
+                                        <div class="clear"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+					<div class="action_box">
+                        <a class="action" href="#">
+                            <img src="images/action_img2.jpg" width="218" height="285" alt="" />
+                            <span class="msg">
+                                <span>АКЦИЯ</span><br />скидка 20% на часы 
+                            </span>
+                        </a>
+                    </div>
+                    
+                	<div class="contacts">
+                    	<p class="tel">+380 (692) <strong>53-21-56</strong></p>
+                        <p class="time">Пн-Пт с 9:00 по 20:00</p>
+                        <p class="mail"><a href="#">info@artkoncept.com.ua</a></p>
+                    </div>
+                    
+                    <div class="delivery no_border">
+                    	<h6 class="title">Оплата и доставка</h6>
+                        <ul>
+                        	<li><a href="#">Наличными курьеру </a><br />по Крыму</li>
+                            <li><a href="#">Безналичный расчет</a><br />по всей Украине</li>
+                        </ul>
+                        <p>Доставка осуществляется по территории Крыма собственной курьерской службой. По Украине доставляет “Новая почта”.</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+    <div class="ft_wrap">
+    	<div class="wrap2">
+        	<div class="footer">
+            	<div class="column ft_contacts">
+                	<a class="ft_logo" href="#"><img src="images/min_logo.png" alt="" width="71" height="23" /></a>
+                    <div class="ft_tel">
+                    	<p class="type">тел:</p><p> +380 (692) 53-21-56</p>
+                        <div class="clear">&nbsp;</div>
+                        <p class="type">Факс:</p><p> +380 (692) 53-21-54</p>
+                        <div class="clear">&nbsp;</div>
+                    </div>
+                    <p><a href="#">info@artkoncept.com.ua</a></p>
+                    <p>99000<br />Украина <br />г.Севастополь<br />ул.Дм.Ульянова, 2</p>
+                    <p>&copy; 2012. KARE.<br />При копировании материалов сайта необходимо разрешение<a href="#"> администрации.</a></p>
+                </div>
+            	<div class="column site_map">
+                	<ul>
+                    	<li><a href="#">Новости</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ul>
+                	<ul>
+                    	<li><a href="#">Оплата и доставка</a></li>
+                    </ul>
+                	<ul>
+                    	<li><a href="#">Каталог</a></li>
+                        <li><a href="#">мебель</a></li>
+                        <li><a href="#">декор</a></li>
+                        <li><a href="#">свет</a></li>
+                    </ul>
+                	<ul>
+                    	<li><a href="#">О нас</a></li>
+                        <li><a href="#">магазины</a></li>
+                    </ul>
+                	<ul>
+                    	<li><a href="#">галерея</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>                    
+                </div>
+            	<div class="column ft_collections">
+                	<h6>Коллекции</h6>
+                	<ul>
+                    	<li><a href="#">Colonial</a></li>
+                        <li><a href="#">Design & the City</a></li>
+                        <li><a href="#">Fashion Rebels</a></li>
+                        <li><a href="#">Ibiza</a></li>
+                        <li><a href="#">Metropolis</a></li>
+                        <li><a href="#">Modern Vintage</a></li>
+                        <li><a href="#">Mountain Chalet</a></li>
+                        <li><a href="#">Pop Art & Fun</a></li>
+                        <li><a href="#">Retro Design</a></li>
+                        <li><a href="#">Rockstar</a></li>
+                        <li><a href="#">Romantic</a></li>
+                        <li><a href="#">Vegas</a></li>
+                        <li><a href="#">White Diva</a></li>
+                    </ul>                    
+                </div>
+            	<div class="column dev">
+                	<a href="#">разработка и продвижение веб-сайтов</a>
+                </div>
+                <div class="clear"></div>                                                
+            </div>
+        </div>    
+    </div>
+
+</div>
+	
+</body>
+</html>

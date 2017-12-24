@@ -1,0 +1,9 @@
+[23-Aug-2017 21:24:04 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/language/qry_Main.php on line 23
+[23-Aug-2017 21:25:47 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/language/qry_Main.php on line 23
+[31-Aug-2017 14:16:01 Europe/Moscow] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/language/qry_Main.php on line 24
+[31-Aug-2017 14:16:05 Europe/Moscow] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/language/qry_Main.php on line 24
+[12-Sep-2017 21:58:41 Europe/Moscow] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/language/qry_Main.php on line 24
+[12-Sep-2017 22:05:11 Europe/Moscow] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/language/qry_Main.php on line 24
+[12-Sep-2017 22:33:28 Europe/Moscow] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/language/qry_Main.php on line 24
+[12-Sep-2017 22:33:32 Europe/Moscow] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/language/qry_Main.php on line 24
+[12-Sep-2017 22:35:13 Europe/Moscow] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/language/qry_Main.php on line 24

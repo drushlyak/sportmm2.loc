@@ -1,0 +1,22 @@
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 81
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: filter in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 82
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 83
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: 3d16a10fa0 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 08:38:00 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_videoslider/dsp_Main.php on line 122
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 81
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: t_mod_videoslider_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 83
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: 3d16a10fa0 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[12-Sep-2017 22:04:01 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_videoslider/dsp_Main.php on line 122

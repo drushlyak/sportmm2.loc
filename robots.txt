@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /virab
+Host: http://sportmm.ru
+Sitemap: http://sportmm.ru/sitemap.xml

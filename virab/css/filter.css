@@ -1,0 +1,22 @@
+
+.tff_collapse {
+	padding: 0 0 0 7px !important;
+	background-color: #FFF !important;
+	border: 0 !important;
+	border-top: 1px solid #E6E6E6 !important;
+}
+
+.tff_collapse legend.main {
+	margin-bottom: 0 !important;
+	background: inherit;
+	cursor: pointer;
+}
+
+.tff_form_hidden {
+	display: none;
+}
+
+.top_div {
+	text-align: right;
+	padding: 5px 10px 0 0;
+}

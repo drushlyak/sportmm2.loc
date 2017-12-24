@@ -1,0 +1,1096 @@
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: t_mod_order_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: t_mod_order_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: t_mod_order_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 81
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: filter in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 82
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: t_mod_order_grid in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 83
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 08:37:13 UTC] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 121
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Trying to get property of non-object in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 226
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: filter_main in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[30-Aug-2017 08:37:13 UTC] PHP Warning:  MySQL said: Table 'taat138_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 121
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Trying to get property of non-object in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 226
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[30-Aug-2017 08:37:13 UTC] PHP Warning:  MySQL said: Table 'taat138_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 121
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Trying to get property of non-object in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 226
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: has_file_field in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/FormContainers.php on line 81
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: fieldset_cls in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/FormContainers.php on line 87
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: id in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 214
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: id in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 215
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: textblock in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: addinresult in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: begin in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: end in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: id_client in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 214
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: id_client in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 215
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: textblock in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: addinresult in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: begin in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: end in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: date_order_range in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 214
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: date_order_range in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 215
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 214
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 215
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: order_number in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 214
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: order_number in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 215
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: textblock in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: addinresult in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: begin in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: end in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: date_delivery_range in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 214
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: date_delivery_range in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 215
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: id_city in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 214
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: id_city in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DspHelper.class.php on line 215
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 08:37:13 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: sort_field in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: sort_dir in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: filter in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 82
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 14:23:32 UTC] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 121
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 226
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: filter_main in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[30-Aug-2017 14:23:32 UTC] PHP Warning:  MySQL said: Table 'taat138_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 121
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 226
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[30-Aug-2017 14:23:32 UTC] PHP Warning:  MySQL said: Table 'taat138_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 121
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/db/class.mydb.php on line 226
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: has_file_field in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/FormContainers.php on line 81
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: fieldset_cls in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/FormContainers.php on line 87
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: textblock in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: addinresult in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: begin in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: end in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: textblock in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: addinresult in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: begin in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: end in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: textblock in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: addinresult in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: begin in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: end in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: color in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/table/TableViewer.php on line 369
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined index: state_order in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[30-Aug-2017 14:23:32 UTC] PHP Notice:  Undefined variable: product_complect in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 81
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 83
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 11:59:47 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 81
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 83
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[31-Aug-2017 14:16:25 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 81
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 83
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:20 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: sort_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: sort_dir in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 10:36:23 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: sort_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: sort_dir in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:58:27 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: sort_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: sort_dir in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[12-Sep-2017 21:59:40 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 81
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 83
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[23-Sep-2017 02:31:49 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:31:50 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined variable: type_delivery_to_js in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 8
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined variable: place_delivery_to_js in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 9
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 121
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: is_fastorder in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 296
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: legend_info in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 101
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 37
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 41
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 43
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 37
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 41
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 43
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: cols in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 261
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: rows in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 262
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: style in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 176
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: name in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 176
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: value in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 705
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 41
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:28 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: sort_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: sort_dir in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 02:32:45 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined variable: type_delivery_to_js in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 8
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined variable: place_delivery_to_js in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 9
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 121
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: is_fastorder in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Form.php on line 296
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: legend_info in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 101
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 37
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 41
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 43
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 37
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 41
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 43
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: cols in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 261
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: rows in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 262
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: style in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 176
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: name in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 176
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: value in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 705
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 41
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 02:32:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 115
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 81
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: filter in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 82
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: t_mod_order_grid in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 83
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Warning:  MySQL said: Unknown column 'mpro.id_city' in 'field list'; <br/>Query: 
+		SELECT mo.id,
+				(	SELECT mpro.id_city
+						FROM mod_order_product mop
+							JOIN mod_product mpro ON mpro.id = mop.id_product
+					WHERE mop.id_order = mo.id
+					LIMIT 1
+				) AS id_city
+		FROM mod_order AS mo
+				
+		WHERE  TRUE
+	 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: 4aafd9aaf2 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 168
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: filter_main in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 179
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.dict_state_order' doesn't exist; <br/>Query: SELECT * FROM dict_state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Use of undefined constant CFG_DBTBL_DICT_CITY - assumed 'CFG_DBTBL_DICT_CITY' in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php on line 224
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Warning:  MySQL said: Table 'ammas122_test.CFG_DBTBL_DICT_CITY' doesn't exist; <br/>Query: SELECT * FROM CFG_DBTBL_DICT_CITY in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 226
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: has_file_field in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 81
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: fieldset_cls in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/FormContainers.php on line 87
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: id in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: id_client in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: date_order_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: order_number in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: textblock in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 83
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: addinresult in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 88
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: begin in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 91
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: end in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/form/TextFieldBlocks.php on line 102
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: date_delivery_range in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 214
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: id_city in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DspHelper.class.php on line 215
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 19
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: color in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/table/TableViewer.php on line 369
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined index: state_order in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(72) : runtime-created function on line 1
+[23-Sep-2017 03:27:42 Europe/Moscow] PHP Notice:  Undefined variable: product_complect in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/modules/mod_order/dsp_Main.php(118) : runtime-created function on line 15

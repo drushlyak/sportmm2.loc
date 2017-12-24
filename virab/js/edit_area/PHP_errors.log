@@ -1,0 +1,3 @@
+[23-Aug-2017 11:18:17 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/taat138/domains/uin.in.ua/public_html/test/virab/js/edit_area/edit_area_compressor.php on line 148
+[23-Aug-2017 11:18:17 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/taat138/domains/uin.in.ua/public_html/test/virab/js/edit_area/edit_area_compressor.php on line 152
+[23-Aug-2017 11:18:17 UTC] PHP Notice:  Undefined property: Compressor::$sub_script_list in /home/taat138/domains/uin.in.ua/public_html/test/virab/js/edit_area/edit_area_compressor.php on line 196

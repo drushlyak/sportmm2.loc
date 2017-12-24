@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<var>mod_contact</var>
+	<type>mod</type>
+	<creation_date>2009-05-27</creation_date>
+	<version>0.0.1</version>
+	<description>Обратная связь</description>
+	<sql>mod_contact.sql</sql>
+	<circuits>
+		<circuit name="mod_contact" path=""></circuit>
+	</circuits>
+	<tables>
+	    <table const="CFG_DBTBL_MOD_CONTACT" name="mod_contact"></table>
+	</tables>
+	<menu>
+		<item title="Обратная связь" url="mod_contact.main" menu="1" edt="0">
+			<item title="Просмотр сообщения" url="mod_contact.view" menu="0" edt="1"></item>
+		</item>
+	</menu>
+	<acl>
+		<privileges>
+			<privilege var="delete" name="Удаление"></privilege>
+			<privilege var="view" name="Просмотр"></privilege>
+		</privileges>
+	</acl>
+	<displays>
+		<dsp file='dsp_AclModContact.php'></dsp>
+	</displays>
+</module>

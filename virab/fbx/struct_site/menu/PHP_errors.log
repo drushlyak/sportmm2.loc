@@ -1,0 +1,221 @@
+[31-Aug-2017 10:58:40 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 10:58:40 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[31-Aug-2017 10:58:40 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[31-Aug-2017 14:15:42 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[31-Aug-2017 14:15:42 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[31-Aug-2017 14:15:42 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[04-Sep-2017 17:17:18 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[04-Sep-2017 17:17:18 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[04-Sep-2017 17:17:18 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[12-Sep-2017 21:41:29 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:41:29 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[12-Sep-2017 21:41:29 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[12-Sep-2017 21:50:11 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 21:50:11 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[12-Sep-2017 21:50:11 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[12-Sep-2017 22:04:11 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 22:04:11 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[12-Sep-2017 22:04:11 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[12-Sep-2017 22:04:17 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 22:04:17 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[12-Sep-2017 22:04:17 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[12-Sep-2017 22:35:08 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[12-Sep-2017 22:35:08 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[12-Sep-2017 22:35:08 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[23-Sep-2017 18:06:09 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 18:06:09 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[23-Sep-2017 18:06:09 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[23-Sep-2017 18:07:02 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 18:07:02 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[23-Sep-2017 18:07:02 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[23-Sep-2017 18:07:48 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 18:07:48 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[23-Sep-2017 18:07:48 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[23-Sep-2017 18:08:30 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 18:08:30 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[23-Sep-2017 18:08:30 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128
+[23-Sep-2017 18:10:11 Europe/Moscow] PHP Warning:  MySQL said: BIGINT UNSIGNED value is out of range in '(`ammas122_test`.`s1`.`level` - 1)'; <br/>Query: 
+                SELECT
+                s1.id       									AS `id`,
+                s1.data_id  									AS `data_id`,
+                s1.lft     									AS `left`,
+                s1.rgt    									AS `right`,
+                s1.level    									AS `level`,
+                IF(s1.lft = s1.rgt-1, '0', '1') 	AS `has_children`,
+                s3.id 												AS `parent_id`
+            , d.name,d.id_te_value,d.id_node,d.url,d.template_id
+                    FROM menu_struct AS s1
+                    INNER JOIN menu_struct AS s2 ON (s1.lft > s2.lft AND s1.rgt < s2.rgt)
+                    LEFT JOIN menu_struct AS s3 ON (s3.level = s1.level - 1 AND s3.lft < s1.lft AND s3.rgt > s1.rgt) LEFT JOIN menu_data AS d ON s1.data_id = d.id
+                    WHERE s2.lft = 1
+                 ORDER BY s1.lft in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/db/class.mydb.php on line 121
+[23-Sep-2017 18:10:11 Europe/Moscow] PHP Notice:  Trying to get property of non-object in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/Nstree.class.php on line 816
+[23-Sep-2017 18:10:11 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/struct_site/menu/dsp_Main.php on line 128

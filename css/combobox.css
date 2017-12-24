@@ -1,0 +1,106 @@
+.combo-wrapper {
+  background: url('../images/login/input_bg.png') no-repeat 0px 0px;
+  color: black;
+  line-height: 21px;
+  cursor: pointer;
+  zoom: 1;
+  outline: none;
+  width: 382px !important;
+  height: 32px !important;
+  margin-bottom: 23px;
+  line-height: 26px;
+  padding: 0 10px;
+}
+
+.combo-wrapper-hover {
+  border-color: #4444aa;
+}
+
+.combo-wrapper-active {
+  border-color: #a0a0a0;
+}
+
+.combo-disabled {
+  background: #eeeeee;
+}
+
+.combo-selected {
+  padding: 5px 0 0 8px;
+  margin: 3px -8px 0 0;
+  float: left;
+  color: #616060;
+  font: 14px Trebuchet;
+}
+
+.combo-button {
+  width: 6px;
+  height: 6px;
+  float: right;
+  text-indent: -9999px;
+  background: url('../images/select-down.png') no-repeat 0px 14px;
+  margin-right: 20px;
+}
+
+.combo-list {
+  list-style: none;
+  background: #ffffff;
+  padding: 0;
+  margin: 11px 0 0;
+  font-size: 12px;
+  border: 1px solid #efefef;
+  z-index: 9999;
+  width: 380px !important;
+}
+.combo-list li {
+  padding: 7px 17px;
+  margin: 0;
+  cursor: pointer;
+  font: 14px Trebuchet;
+}
+.combo-list .combo-group-label {
+  font-style: italic;
+  font-weight: bold;
+  cursor: default;
+}
+.combo-list .combo-group {
+  padding: 0;
+  margin: 0;
+}
+.combo-list .combo-group li {
+  width: auto;
+  float: none;
+  padding-left: 10px;
+}
+.combo-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+  overflow: hidden;
+  font-size: 10px;
+}
+
+.combo-multiple {
+  margin: 0;
+  zoom: 1;
+  clear: both;
+  overflow: hidden;
+  border: 1px solid green;
+}
+.combo-multiple li {
+  float: left;
+  width: 100%;
+}
+
+.combo-item-hover {
+  background: #aaaaaa;
+}
+
+.combo-item-active {
+  background: #4444aa;
+  color: #ffffff;
+}
+
+.combo-focus {
+  border-color: yellow;
+}

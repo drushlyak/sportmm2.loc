@@ -1,0 +1,1945 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Virab\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-05 14:42+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Serge <rou.terra@gmail.com>\n"
+"Language-Team: ter <rou.terra@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: p:\\virab-tests\\htdocs\n"
+
+#: p:\virab-tests\htdocs/virab/DefaultLayout.php:40
+msgid "Язык интерфейса:&nbsp;"
+msgstr "Language:&nbsp;"
+
+#: p:\virab-tests\htdocs/virab/DefaultLayout.php:70
+msgid "Генерация страницы"
+msgstr "Generate page"
+
+#: p:\virab-tests\htdocs/virab/fbx/qry_Navigation.php:93
+msgid "Главная"
+msgstr "Home"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/fbx_Switch.php:15
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/fbx_Switch.php:52
+msgid "Для  fuseaction <b>'"
+msgstr "For fuseaction <b>'"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_ChParent.php:58
+msgid "Дерево ролей"
+msgstr "Tree of roles"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_ChParent.php:64
+msgid "Роль верхнего уровня"
+msgstr "The role of top-level"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_ChParent.php:73
+msgid "Выбор родительского роли"
+msgstr "Select the parent role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_ChParent.php:80
+msgid "Родительская роль"
+msgstr "Parental role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_ChParent.php:89
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Form.php:54
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Form.php:84
+msgid "Сохранить"
+msgstr "Save"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/act_Delete.php:10
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Delete.php:5
+msgid "У вас нет прав на удаление"
+msgstr "You do not have rights to delete"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/act_Delete.php:26
+msgid "Удалить роль невозможно из-за наличия связанных с нею правил или пользователей"
+msgstr "Remove not the role because of the related regulations or users"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/act_Delete.php:32
+msgid "Не определен id записи"
+msgstr "Undefined id record"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Form.php:28
+msgid "Добавление роли"
+msgstr "Add a role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Form.php:30
+msgid "Редактирование роли"
+msgstr "Edit role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Form.php:48
+msgid "Наименование"
+msgstr "Name"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:15
+msgid "Наименование роли"
+msgstr "Name of role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:16
+msgid "Количество правил для роли"
+msgstr "Number of rules for the role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:16
+msgid "Количество правил"
+msgstr "Number of rules"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:17
+msgid "Количество пользователей с данной ролью"
+msgstr "The number of users with this role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:17
+msgid "Количество пользователей"
+msgstr "Number of users"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:67
+msgid "Добавить роль-наследника"
+msgstr "Add role-heir"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:76
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:72
+msgid "Редактировать"
+msgstr "Edit"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:85
+msgid "Поменять родительскую роль"
+msgstr "To change the parental role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:94
+msgid "Удалить"
+msgstr "Delete"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:95
+msgid "Вы уверены что хотите удалить данную роль?"
+msgstr "Are you sure you want to delete this role?"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/dsp_Main.php:104
+msgid "Добавить роль<br />верхнего уровня"
+msgstr "Add role <br /> top-level"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/qry_Form.php:11
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/qry_Form.php:9
+msgid "У вас нет прав на редактирование"
+msgstr "You do not have permission to edit"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/qry_Form.php:17
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/qry_Form.php:14
+msgid "У вас нет прав на создание"
+msgstr "You do not have rights to create"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/qry_Main.php:5
+msgid "У вас нет прав на просмотр"
+msgstr "You do not have rights to view"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/act_Store.php:38
+msgid "Необходимо указать наименование"
+msgstr "You must specify the name of"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/role/qry_ChParent.php:5
+msgid "У вас нет прав на смену родительской роли"
+msgstr "You do not have rights to change the parenting role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Delete.php:21
+msgid " Отсутствует запись id="
+msgstr " No entry id ="
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Form.php:27
+msgid "Редактирование пользователя"
+msgstr "Edit user"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Form.php:46
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:17
+msgid "Логин"
+msgstr "Login"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Form.php:53
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:18
+msgid "ФИО пользователя"
+msgstr "Full name"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Form.php:60
+msgid "Пароль"
+msgstr "Password"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Form.php:66
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:20
+msgid "Email"
+msgstr "Email"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Form.php:73
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:19
+msgid "Роль пользователя"
+msgstr "User role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:18
+msgid "ФИО"
+msgstr "Full name"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:19
+msgid "Роль"
+msgstr "Role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:81
+msgid "Удалить параметр"
+msgstr "Delete option"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:82
+msgid "Вы уверены, что хотите удалить данное значение?"
+msgstr "Are you sure you want to remove this value?"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:90
+msgid "Добавить<br>пользователя"
+msgstr "Add a new <br>user"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:95
+msgid "Удалить выбранных<br>пользователей"
+msgstr "Delete selected <br /> users"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/dsp_Main.php:96
+msgid "Вы уверены что хотите удалить выбранных пользователей?"
+msgstr "Are you sure you want to delete the selected users?"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:61
+msgid "Необходимо указать логин пользователя"
+msgstr "You must specify a user login"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:64
+msgid "Неверный формат логина. Разрешены только латинские буквы, цифры и _"
+msgstr "Invalid format login. allowed only letters, numbers and _"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:67
+msgid "Данный логин уже используется"
+msgstr "This login is already in use"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:72
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:76
+msgid "Пароли не совпадают"
+msgstr "Passwords do not match"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:74
+msgid "Необходимо заполнить поле пароля"
+msgstr "You must fill password field"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:78
+msgid "Длина пароля должна быть не менее 5 символов"
+msgstr "Your password must be at least 5 characters"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:82
+msgid "Необходимо указать email пользователя"
+msgstr "You must specify the user email"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:84
+msgid "Неверный формат email адреса"
+msgstr "Invalid format for email addresses"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:88
+msgid "Необходимо указать ФИО пользователя"
+msgstr "You must specify the user full name"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/users/act_Store.php:92
+msgid "Необходимо выбрать роль для пользователя"
+msgstr "You must select the user role"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:19
+msgid "Перевод:"
+msgstr "Translation:"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:40
+msgid "Редактирование прав"
+msgstr "Edit rights"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:78
+msgid "Роль:"
+msgstr "Role:"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:103
+msgid "Все привилегии"
+msgstr "All privileges"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:106
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:134
+msgid "Разрешить"
+msgstr "Enable"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:107
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:135
+msgid "Запретить"
+msgstr "Denied"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:108
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:136
+msgid "Наследовать"
+msgstr "Inherit"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Form.php:117
+msgid "Привилегии"
+msgstr "Privileges"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_UserGroup.php:3
+msgid "Группы / Пользователи"
+msgstr "Groups / Users"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_UserGroup.php:7
+msgid "Группы и пользователи"
+msgstr "Groups and Users"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_UserGroup.php:33
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_ObjRight.php:21
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Select.php:89
+msgid "... пусто"
+msgstr "... empty"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_ObjRight.php:3
+msgid "Объекты доступа"
+msgstr "Access Objects"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Rights.php:12
+msgid "Название"
+msgstr "Title"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Rights.php:13
+msgid "Права доступа"
+msgstr "Permissions"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/rule/dsp_Rights.php:25
+msgid "Действия"
+msgstr "Actions"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/dsp_Main.php:16
+msgid "Наименование привилегии"
+msgstr "Name of access privileges"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/dsp_Main.php:16
+msgid "Привилегия"
+msgstr "Privilege"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/dsp_Main.php:17
+msgid "Константа"
+msgstr "Constant"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/dsp_Main.php:59
+msgid "Вы уверены, что хотите удалить данную привилегию?"
+msgstr "Are you sure you want to remove this privilege?"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/dsp_Main.php:68
+msgid "Создать<br />привилегию"
+msgstr "Create <br /> privilege"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/dsp_Form.php:31
+msgid "Название привилегии доступа:"
+msgstr "Name of access privileges:"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/dsp_Form.php:37
+msgid "Наименование константы:"
+msgstr "Name of the constants:"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/qry_Form.php:13
+msgid "У вас нет прав на добавление"
+msgstr "You do not have rights to add"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/act_Store.php:9
+msgid "Необходимо указать название роли для языка по-умолчанию"
+msgstr "You must specify a name for the role of language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/act_Store.php:16
+msgid "Указанное наименование константы уже используется!"
+msgstr "The specified name of constants is already in use!"
+
+#: p:\virab-tests\htdocs/virab/fbx/acl/privilege/act_Delete.php:38
+msgid "Отсутствует запись для"
+msgstr "No entry for "
+
+#: p:\virab-tests\htdocs/virab/fbx/main/dsp_Main.php:41
+msgid "Показать&nbsp;все"
+msgstr "Show&nbsp;all"
+
+#: p:\virab-tests\htdocs/virab/fbx/main/dsp_Main.php:80
+msgid "Справка"
+msgstr "Help"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/act_ChPosBottom.php:4
+msgid "У вас нет прав на изменение позиции"
+msgstr "You do not have rights to change the position"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/act_Delete.php:7
+msgid " У вас нет прав на удаление"
+msgstr "You do not have rights to delete"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/act_Delete.php:21
+msgid "Отсутствует запись раздела меню для id="
+msgstr "No entry to the menu id ="
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:28
+msgid "дочернего к "
+msgstr "child to"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:28
+msgid "Добавление раздела меню"
+msgstr "Adding a menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:30
+msgid "Добавление нового раздела меню"
+msgstr "Adding a new section menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:49
+msgid "URL"
+msgstr "URL"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:55
+msgid "Раздел меню"
+msgstr "Section menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:59
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:71
+msgid "Нет"
+msgstr "No"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:60
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:72
+msgid "Да"
+msgstr "Yes"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:67
+msgid "Редактор записи"
+msgstr "Record editor"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Form.php:79
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:16
+msgid "Описание"
+msgstr "Description"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_ChParent.php:17
+msgid "для"
+msgstr "for"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_ChParent.php:25
+msgid "Новый родитель"
+msgstr "The new parent"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_ChParent.php:45
+msgid "Безымянный"
+msgstr "Noname"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:17
+msgid "Переменная"
+msgstr "Variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:60
+msgid "Новый объект"
+msgstr "New Object"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:78
+msgid "Поменять родителя"
+msgstr "Change parent"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:87
+msgid "Переместить узел выше"
+msgstr "Move the node above"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:96
+msgid "Переместить узел ниже"
+msgstr "Move the node below"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:106
+msgid "Вы уверены, что хотите удалить данный объект?"
+msgstr "Are you sure you want to delete this object?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:114
+msgid "Создать раздел меню<br>верхнего уровня"
+msgstr "Create a section menu <br> top-level"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:119
+msgid "Удалить выбранные<br>разделы меню"
+msgstr "Delete selected <br> sections menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/dsp_Main.php:120
+msgid "Вы уверены что хотите удалить выделенные разделы?"
+msgstr "Are you sure you want to delete selected partitions?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/qry_Form.php:28
+msgid " У вас нет прав на добавление"
+msgstr "You do not have rights to add"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/qry_ChParent.php:3
+msgid "У вас нет прав на изменение родителя"
+msgstr "You do not have rights to change the parent"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/qry_Main.php:5
+msgid " У вас нет прав на просмотр"
+msgstr "You do not have rights to view"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/navigation/act_Store.php:8
+msgid "Необходимо указать название раздела меню для языка по-умолчанию"
+msgstr "You must specify the name of the menu for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/act_Delete.php:34
+msgid "Отсутствует запись для id="
+msgstr "No entry for id ="
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Form.php:28
+msgid "Добавление параметра"
+msgstr "Add a parameter"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Form.php:45
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:32
+msgid "Значение"
+msgstr "Value"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:30
+msgid "Отметить / снять отметку со всех элементов"
+msgstr "Check / uncheck all items"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:52
+msgid "Редактировать переменную"
+msgstr "Edit the variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:55
+msgid "Вы уверены, что хотите удалить данную переменную?"
+msgstr "Are you sure you want to remove this variable?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:55
+msgid "Удалить переменную"
+msgstr "Delete a variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:94
+msgid "Добавить переменную"
+msgstr "Add variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:106
+msgid "Вы уверены что хотите удалить выделенные переменные?"
+msgstr "Are you sure you want to delete the selected variables?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/dsp_Main.php:106
+msgid "Удалить выбранные переменные"
+msgstr "Delete selected variables"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/act_Store.php:9
+msgid "Необходимо указать название переменной"
+msgstr "You must specify the name of the variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/settings/act_Store.php:12
+msgid "Необходимо указать значение переменной для языка по-умолчанию"
+msgstr "You must specify a variable for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Form.php:26
+msgid "Добавление языковой конструкции"
+msgstr "Adding language construction"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Form.php:43
+msgid "Язык"
+msgstr "Language"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Form.php:68
+msgid "Текст"
+msgstr "Text"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:17
+msgid "ID записи"
+msgstr "ID record"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:17
+msgid "ID"
+msgstr "ID"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:20
+msgid "Превью значения (сокращенное до 50 символов)"
+msgstr "Previews values (abbreviated to 50 characters)"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:20
+msgid "Превью значения"
+msgstr "Previews values"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:97
+msgid "Добавить языковое<br>значение"
+msgstr "Add language <br> value"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:102
+msgid "Удалить выбранные<br>языковые значения"
+msgstr "Delete selected <br> language values"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:103
+msgid "Вы уверены что хотите удалить выделенные значения?"
+msgstr "Are you sure you want to delete the selected records?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:108
+msgid "Сброс<br />memcache"
+msgstr "Reset <br /> memcache"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:109
+msgid "Вы уверены что хотите очистить все memcache записи?"
+msgstr "Are you sure you want to clear all the memcache record?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/dsp_Main.php:131
+msgid "Хэш переменной"
+msgstr "Hash variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/act_Store.php:9
+msgid "Необходимо указать переменную для языковой конструкции и выбрать язык"
+msgstr "You must specify a variable for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/language/act_Store.php:12
+msgid "Переменная должна начинаться с буквы и содержать только буквы, цифры и символ подчеркивания."
+msgstr "Variable  must begin with a letter and contain only letters, numbers and underscores."
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_FileStore.php:4
+msgid "У вас нет прав на загрузку архива БД"
+msgstr "You do not have permission to upload the archive database"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_FileStore.php:27
+msgid "Невозможно записать файл"
+msgstr "Unable to write file"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_FileStore.php:33
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_Store.php:37
+msgid "Нет прав на запись"
+msgstr "No write permissions"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Form.php:6
+msgid "У вас нет прав на загрузку базы"
+msgstr "You do not have permission to load the base"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Form.php:23
+msgid "Файл копии БД <small>(в gz файле)</small>"
+msgstr "File copy database <small> (in *.gz file) </ small>"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_Restore.php:4
+msgid "У вас нет прав на создание БД"
+msgstr "You do not have rights to create database"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_Restore.php:30
+msgid "Файл не найден"
+msgstr "File not found"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_Restore.php:34
+msgid "Дамп базы успешно восстановлен."
+msgstr "Dump database successfully restored."
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:16
+msgid "Пользователь"
+msgstr "User"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:17
+msgid "Дата копии"
+msgstr "Date copy"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:18
+msgid "Файл копии"
+msgstr "File copy"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:19
+msgid "Метка о загрузке файла дампа"
+msgstr "Label on loading the dump file"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:19
+msgid "Загруженный?"
+msgstr "The uploaded?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:20
+msgid "Размер файла"
+msgstr "File Size"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:20
+msgid "Размер"
+msgstr "Size"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:81
+msgid "Скачать копию БД"
+msgstr "Download a copy of the database"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:90
+msgid "Восстановить из копии"
+msgstr "Restore from a copy"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:99
+msgid "Вы уверены, что хотите удалить данную копию БД?"
+msgstr "Are you sure you want to remove this copy of the database?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:100
+msgid "Удалить копию БД"
+msgstr "Remove copy of the database"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:108
+msgid "Создать резервную<br />копию БД"
+msgstr "Create a backup copy<br /> of the database"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:113
+msgid "Загрузить сохраненную<br />копию БД"
+msgstr "Upload the saved <br /> copy of the database"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:118
+msgid "Удалить выбранные<br />копии БД"
+msgstr "Delete selected <br /> copy of the database"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/dsp_Main.php:119
+msgid "Вы уверены что хотите удалить выбранные копии?"
+msgstr "Are you sure you want to delete the selected copy?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_Store.php:4
+msgid "У вас нет прав на создание архива БД"
+msgstr "You do not have rights to create the archive databas"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/backup/act_Store.php:31
+msgid "Невозможно создать архив"
+msgstr "Can not create file archive"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/act_Delete.php:32
+msgid "Отсутствует запись шаблонной переменной для id="
+msgstr "No entry template variable for the id ="
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Form.php:28
+msgid "Добавление шаблонной переменной"
+msgstr "Add a template variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Form.php:55
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Main.php:36
+msgid "Файл"
+msgstr "File"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Main.php:34
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:17
+msgid "Тип"
+msgstr "Type"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Main.php:35
+msgid "Системная"
+msgstr "System"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Main.php:57
+msgid "Системная переменая. Создана одним из элементов системы и ее редактирование возможно только из модуля создавшего ее."
+msgstr "System variables. A part of the system and its editing is possible only from the module that created it."
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Main.php:59
+msgid "Пользовательская переменная"
+msgstr "User Variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/tevalue/dsp_Main.php:67
+msgid "Вы уверены, что хотите удалить?"
+msgstr "Are you sure you want to delete?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_ManualForm.php:19
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:15
+msgid "Название модуля"
+msgstr "Module Name"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_ManualForm.php:22
+msgid "Название словаря"
+msgstr "Name of dictionary"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_ManualForm.php:47
+msgid "Создать"
+msgstr "Create"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Form.php:38
+msgid "Название:"
+msgstr "Name:"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Form.php:45
+msgid "Описание:"
+msgstr "Description:"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Form.php:52
+msgid "Видимость:"
+msgstr "Visibility:"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Form.php:67
+msgid "Загрузить"
+msgstr "Upload"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:17
+msgid "Тип модуля"
+msgstr "Module Type"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:18
+msgid "Видимость"
+msgstr "Visibility"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:19
+msgid "Системный"
+msgstr "System"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:48
+msgid "Модуль"
+msgstr "Module"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:48
+msgid "Справочник"
+msgstr "Directory"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:79
+msgid "Редактировать модуль"
+msgstr "Edit Module"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:89
+msgid "Привилегии доступа в модуле"
+msgstr "Access privileges in the module"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:97
+msgid "Загрузить<br />модуль"
+msgstr "Upload <br /> module"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:102
+msgid "Ручная установка<br />модуля"
+msgstr "Manual install<br /> module"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/dsp_Main.php:107
+msgid "Ручная установка<br />словаря"
+msgstr "Manual install<br /> dictionary"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/qry_Form.php:29
+msgid "У вас нет прав на установку модулей"
+msgstr "You do not have rights to install the modules"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:22
+msgid "Нет прав на запись во временную папку:"
+msgstr "No permission to write to a temporary folder:"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:27
+msgid "Не удалось разархивировать файл:"
+msgstr "Failed to unzip the file:"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:346
+msgid "Не удалось переименовать директорию"
+msgstr "Could not rename the directory"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:352
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:356
+msgid "Не удалось установить таблицы"
+msgstr "Unable to set the table"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:360
+msgid "Не удалось установить circuit-ы для Fusebox"
+msgstr "Unable to establish circuit-s for Fusebox"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:371
+msgid "Не удалось установить пункты меню"
+msgstr "Unable to set menu items"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:375
+msgid "Не удалось создать структуру БД"
+msgstr "Could not create database structure"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:379
+msgid "Не удалось установить файлы отображения доступа"
+msgstr "Unable to access files display"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:393
+msgid "Не удалось установить типы шаблонов"
+msgstr "Unable to establish types of templates"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:397
+msgid "Не удалось установить шаблонные переменные"
+msgstr "Unable to set template variables"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:401
+msgid "Не удалось настроить системы"
+msgstr "Failed to configure the system"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:405
+msgid "Неверный данные в xml-конфиге модуля"
+msgstr "Invalid data in the xml-config module"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:409
+msgid "Не удалось уставить код для отображения шаблонов"
+msgstr "Could not staring at the code for displaying templates"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:416
+msgid "Необходимо указать название для языка по-умолчанию"
+msgstr "You must specify a name for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:429
+msgid "Тип файла должен быть: zip"
+msgstr "The file type must be: zip"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:434
+msgid "Не удалось разархивировать файл: "
+msgstr "Failed to unzip the file:"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:437
+msgid "Выберите файл"
+msgstr "Select a file"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:452
+msgid "Нет прав на запись в "
+msgstr "Not writable"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:457
+msgid "Такой модуль в системе уже установлен"
+msgstr "This module in the system is already installed"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_Store.php:462
+msgid "Неудовлетворённые зависимости у модуля"
+msgstr "Unsatisfied addicts module"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/act_ManualStore.php:9
+msgid "Необходимо указать название модуля для языка по-умолчанию"
+msgstr "You must specify the name of the module for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/priv/dsp_Form.php:16
+msgid "Привилегия для добавления:"
+msgstr "The privilege to add:"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/priv/dsp_Form.php:32
+msgid "Добавить"
+msgstr "Add"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/priv/dsp_Main.php:15
+msgid "Привилегия доступа"
+msgstr "Access privileges"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/priv/dsp_Main.php:16
+msgid "Константа класса"
+msgstr "Constant class"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/priv/dsp_Main.php:52
+msgid "Вы уверены что хотите удалить?"
+msgstr "Are you sure you want to delete?"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/priv/dsp_Main.php:53
+msgid "Удалить правило доступа"
+msgstr "Remove access rule"
+
+#: p:\virab-tests\htdocs/virab/fbx/admin/modules/priv/dsp_Main.php:61
+msgid "Добавить правило<br />доступа"
+msgstr "Add rule of<br />access"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Form.php:25
+msgid "дочернего&nbsp;к"
+msgstr "child&nbsp;to"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Form.php:56
+msgid "Узел"
+msgstr "Node"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Form.php:83
+msgid "Доступные языки"
+msgstr "Available languages"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Form.php:99
+msgid "Шаблон"
+msgstr "Template"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Form.php:128
+msgid "Url адрес"
+msgstr "Url Address"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Main.php:15
+msgid "Меню"
+msgstr "Menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Main.php:16
+msgid "URL меню"
+msgstr "URL menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Main.php:60
+msgid "Новый раздел меню"
+msgstr "New section menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Main.php:106
+msgid "Вы уверены что хотите удалить данный раздел меню?"
+msgstr "Are you sure you want to remove this section of the menu?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Main.php:114
+msgid "Добавить<br>меню"
+msgstr "Add <br> menu"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/menu/dsp_Main.php:120
+msgid "Вы уверены что хотите удалить выбранные разделы меню?"
+msgstr "Are you sure you want to delete the selected section of the menu?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/act_Delete.php:16
+msgid " У вас нет прав на удаление шаблона с id="
+msgstr " You do not have rights to delete the template with id ="
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:61
+msgid "Редактирование переменных узла"
+msgstr "Editing a variable node"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:85
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:176
+msgid "Тип переменной"
+msgstr "Type variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:99
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:182
+msgid "Целое"
+msgstr "Integer"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:100
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:183
+msgid "Строка"
+msgstr "String"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:101
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:184
+msgid "Дробное"
+msgstr "Float"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:115
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:198
+msgid "Метод"
+msgstr "Method"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:141
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Variable.php:221
+msgid "Значение по-умолчанию"
+msgstr "Default value"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:15
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:14
+msgid "Страницы"
+msgstr "Pages"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:16
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:242
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:15
+msgid "ЧПУ"
+msgstr "HUU"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:17
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:16
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:18
+msgid "Статус"
+msgstr "Status"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:48
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:47
+msgid "Страница активна и участвует в отображении"
+msgstr "Page is active and participates in the mapping"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:50
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:49
+msgid "Страница неактивна и отображение ее невозможно"
+msgstr "Page is inactive and display its impossible"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:53
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:52
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:64
+msgid "Страница будет иметь пункт для вывода ее на печать"
+msgstr "Page will have the item to display it in print"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:55
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:54
+msgid "Страница для печати недоступна"
+msgstr "Print page unavailable"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:71
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:70
+msgid "Новая страница"
+msgstr "New page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:94
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:93
+msgid "Редактировать содержимое"
+msgstr "Edit content"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:103
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:102
+msgid "Редактировать комбинированые шаблоны"
+msgstr "Edit combined templates"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:116
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:115
+msgid "Редактировать переменные"
+msgstr "Edit variables"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:153
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:152
+msgid "Вы уверены что хотите удалить данный раздел?"
+msgstr "Are you sure you want to delete this section?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:161
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:160
+msgid "Создать узел<br />верхнего уровня"
+msgstr "Create a node <br /> top-level"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:166
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:165
+msgid "Удалить выбранные<br />узлы"
+msgstr "Delete selected <br /> nodes"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:167
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:166
+msgid "Вы уверены что хотите удалить выделенные узлы?"
+msgstr "Are you sure you want to delete the selected nodes?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Tree_Main.php:191
+msgid "Отобразить в виде списка"
+msgstr "Display as list"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:32
+msgid "Добавление раздела,"
+msgstr "Add partition,"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:34
+msgid "Добавление нового корневого узла"
+msgstr "Adding a new root node"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:58
+msgid "Заголовок"
+msgstr "Title"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:74
+msgid "Ключевые слова"
+msgstr "Keywords"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:108
+msgid "Параметры страницы"
+msgstr "Page setup"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:111
+msgid "Активна:"
+msgstr "Active:"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:130
+msgid "Отображение печать/экран"
+msgstr "Display print / screen"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:150
+msgid "Поведение при отсутствии контента"
+msgstr "The behavior in the absence of content"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:170
+msgid "Кодировка"
+msgstr "Encoding"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:177
+msgid "Без явного указания"
+msgstr "No explicit"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:178
+msgid "Западноевропейская"
+msgstr "Western European"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:179
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:180
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:181
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:182
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:183
+msgid "Кирилица"
+msgstr "Cyrillic"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:184
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:185
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:186
+msgid "Центральноевропейская"
+msgstr "Central"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:187
+msgid "Юникод"
+msgstr "Unicode"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:200
+msgid "Обработка поисковым роботом"
+msgstr "Processing pages by robots"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:206
+msgid "target"
+msgstr "target"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:230
+msgid "Кэширование"
+msgstr "Cache"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_Form.php:239
+msgid "Домены"
+msgstr "Domains"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/act_Store.php:14
+msgid "Необходимо указать название страницы для языка по-умолчанию"
+msgstr "You must specify the name of the page for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/act_Store.php:20
+msgid "Некорректные адреса сайтов. Адрес должен иметь формат [xxx.][xxx.][...]xxxxxx.xxx. Между собой адреса должны разделяться пробелами."
+msgstr "Incorrect addresses of sites. The address must be in the format [xxx.] [xxx .][...] xxxxxx.xxx. Between the addresses must be separated by spaces."
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/dsp_List_Main.php:190
+msgid "Отобразить в виде дерева"
+msgstr "Display as a tree"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/act_Store_Variable.php:16
+msgid "Необходимо указать название для всех переменных"
+msgstr "You must specify a name for all variables"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:16
+msgid "Исполнитель"
+msgstr "Executor"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:17
+msgid "Шаблонная переменная"
+msgstr "Template variable"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:66
+msgid "Страница не доступна для печати"
+msgstr "Page not available for printing"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:70
+msgid "Многостраничная страница. Для улучшения читабельности производится разбивка на страницы"
+msgstr "Multipage page. To improve readability is broken down on the page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:72
+msgid "Обыкновенная одностраничная страница"
+msgstr "Common a one page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:92
+msgid "Редактировать содержимое исполнителя в одностраничном режиме"
+msgstr "Edit the contents of the executor in the single-mode"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:104
+msgid "Редактировать содержимое исполнителя в многостраничном режиме"
+msgstr "Edit the contents of the executor in the multi-page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Main.php:119
+msgid "для узла"
+msgstr "for node"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/dsp_Edit.php:36
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Form.php:35
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:42
+msgid "Содержимое"
+msgstr "Content"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:41
+msgid "Страница"
+msgstr "Page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:58
+msgid "Страница "
+msgstr "Page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:62
+msgid "Редактировать страницу"
+msgstr "Edit page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:65
+msgid "Вы уверены, что хотите удалить данную страницу?"
+msgstr "Are you sure you want to delete this page?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:65
+msgid "Удалить страницу"
+msgstr "Delete page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:68
+msgid "Переместить страницу выше"
+msgstr "Move page above"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:69
+msgid "Переместить страницу ниже"
+msgstr "Move page below"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:108
+msgid "Добавить страницу"
+msgstr "Add page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:119
+msgid "Вы уверены что хотите удалить выделенные страницы?"
+msgstr "Are you sure you want to delete selected pages?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/struct/edit_content/bigpage/dsp_Main.php:119
+msgid "Удалить выбранные страницы"
+msgstr "Delete selected page"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/act_Delete.php:24
+msgid "У вас нет прав на удаление шаблона с id="
+msgstr "You do not have rights to delete the template with id ="
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:13
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:190
+msgid "Смена типа на любой внешний формат хранения данных приведет к удалению всех WYSIWYG элементов этого исполнителя в базе данных !!!"
+msgstr "Change type to any external data storage format will delete all the WYSIWYG features of the artist in the database!"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:127
+msgid "Добавление шаблона"
+msgstr "Adding a template"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:161
+msgid "Тип шаблона"
+msgstr "Template type"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:174
+msgid "Код"
+msgstr "Code"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:180
+msgid "Тип исполнителя"
+msgstr "Type of executor"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:195
+msgid "Параметры исполнителя"
+msgstr "Executor options"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:198
+msgid "Контент:"
+msgstr "Content:"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:205
+msgid "Отображение печать/экран:"
+msgstr "Display print/screen:"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Form.php:241
+msgid "Селективный шаблон"
+msgstr "Selective template"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:19
+msgid "Селективный"
+msgstr "Selective"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:19
+msgid "Селек."
+msgstr "Selective"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:43
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:51
+msgid "Необходимо определить параметры данного контейнера, так как без этого не сможет построиться шаблон!"
+msgstr "Need to define the parameters of the container, because without it would not be able to construct a pattern!"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:48
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:55
+msgid "Будьте внимательны. Это копия!"
+msgstr "Be careful. This is a copy!"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:51
+msgid "Неопределенный контейнер"
+msgstr "Undefined container"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:55
+msgid "Копия неопределенного контейнера"
+msgstr "A copy of indefinite container"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:94
+msgid "Страница недоступна для печати"
+msgstr "Page not available for printing"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:94
+msgid "Страница недоступна для печати "
+msgstr "Page not available for printing"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:97
+msgid "Копия шаблона"
+msgstr "Copy template"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:126
+msgid "Добавить элемент в папку"
+msgstr "Add new item in the folder"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:140
+msgid "Редактировать коды текстов в БД для этого исполнителя"
+msgstr "Edit text codes in the database for this executor"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:176
+msgid "Вы уверены что хотите удалить данный шаблон?"
+msgstr "Are you sure you want to delete this template?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/dsp_Main.php:184
+msgid "Добавить<br>шаблон"
+msgstr "Add <br> template"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/act_Store.php:26
+msgid "Необходимо указать название контейнера для языка по-умолчанию"
+msgstr "You must specify the name of the container for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/dsp_Main.php:59
+msgid "Редактировать код исполнителя"
+msgstr "Edit the code executor"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/dsp_Main.php:62
+msgid "Вы уверены, что хотите удалить данный код исполнителя?"
+msgstr "Are you sure you want to remove this code executor?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/dsp_Main.php:62
+msgid "Удалить код исполнителя"
+msgstr "Delete the code executor"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/dsp_Main.php:101
+msgid "Добавить код<br> исполнителя"
+msgstr "Add code <br> executor"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/dsp_Main.php:111
+msgid "Вы уверены что хотите удалить выделенные коды исполнителей?"
+msgstr "Are you sure you want to delete the selected codes executor?"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/dsp_Main.php:111
+msgid "Удалить выбранные<br> коды исполнителей"
+msgstr "Delete selected <br> codes executors"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/act_Store.php:10
+msgid "Необходимо указать содержимое страницы для языка по-умолчанию"
+msgstr "You must specify the content of the page for the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/struct_site/template/execwcode/act_Store.php:13
+msgid "Необходимо указать страницу"
+msgstr "You must specify the page"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Form.php:31
+msgid "Добавление нового языка"
+msgstr "Adding a new language"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Form.php:33
+msgid "Редактирование языка"
+msgstr "Edit language"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Form.php:58
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:21
+msgid "Сигнатура"
+msgstr "Signature"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Form.php:65
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:23
+msgid "Локаль языка"
+msgstr "Edit language"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Form.php:72
+msgid "Выбор флага"
+msgstr "Select the parent role"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Form.php:79
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:24
+msgid "Язык по-умолчанию"
+msgstr "Language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:21
+msgid "Сигнатура языка"
+msgstr "The signature of the language"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:22
+msgid "Флаг языка"
+msgstr "Flag of the language by default"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:22
+msgid "Флаг"
+msgstr "Flag"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:98
+msgid "Вы уверены, что хотите удалить данный язык?"
+msgstr "Are you sure you want to delete this language?"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:106
+msgid "Добавить новый<br>язык"
+msgstr "Add a new <br> language"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:111
+msgid "Удалить выбранные<br>языки"
+msgstr "Delete selected <br> languages"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/dsp_Main.php:112
+msgid "Вы уверены что хотите удалить выделенные языки?"
+msgstr "Are you sure you want to delete the selected languages?"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/act_Store.php:51
+msgid "Необходимо указать сигнатуру языка"
+msgstr "You must specify the signature of the language"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/act_Store.php:54
+msgid "Необходимо указать локаль языка"
+msgstr "You must specify the signature of the language"
+
+#: p:\virab-tests\htdocs/virab/fbx/dictionaries/dict_language/act_Store.php:57
+msgid "Необходимо выбрать флаг"
+msgstr "You must select the type of application"
+
+#: p:\virab-tests\htdocs/htdocs/gallery_example.php:23
+msgid "г."
+msgstr "s."
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DspHelper.class.php:166
+msgid "С фильтрацией."
+msgstr "With filtering."
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DspHelper.class.php:186
+msgid "Фильтрация"
+msgstr "Filter"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DspHelper.class.php:207
+msgid "Фильтровать"
+msgstr "Filter"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DspHelper.class.php:209
+msgid "Перезагружаю таблицу. Пожалуйста, подождите..."
+msgstr "Reload the table. Please wait ..."
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DspHelper.class.php:215
+msgid "Очистить фильтры"
+msgstr "Clear filter"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DspHelper.class.php:217
+msgid "Фильтры очищены, перезагружаю таблицу. Пожалуйста, подождите..."
+msgstr "Filters cleaned up, reload the table. Please wait ..."
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Auth.class.php:121
+msgid "Авторизация"
+msgstr "Authentication"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Auth.class.php:122
+msgid "Логин или пароль введены ошибочно, либо учетная запись не активирована."
+msgstr "Username or password is wrong or the account is not activated."
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Auth.class.php:124
+msgid "ЛОГИН ИЛИ ПАРОЛЬ ВВЕДЕНЫ ОШИБОЧНО!"
+msgstr "Username or password ENTERING wrong!"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Functions.php:207
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:1325
+msgid "пред."
+msgstr "prev"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Functions.php:211
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:1328
+msgid "след."
+msgstr "next"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Common.php:4
+msgid "Неверный вызов"
+msgstr "Invalid call"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Common.php:10
+msgid "Для работы системы необходимо отключить magic_quotes_gpc!"
+msgstr "The system will need to disable magic_quotes_gpc!"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Common.php:71
+msgid "Язык инициализировать не удалось"
+msgstr "Language failed to initialize"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Common.php:78
+msgid "Невозможно прочесть настройки. Проверьте параметры БД!"
+msgstr "Not possible to read the settings. Check your database!"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:223
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:1313
+msgid "из"
+msgstr "from"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:225
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:1315
+msgid "Записи"
+msgstr "Records"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:253
+msgid "Переход на первую страницу"
+msgstr "Go to first page"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:265
+msgid "Переход на страницу назад"
+msgstr "Go to page back"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:291
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:312
+msgid "Переход на страницу"
+msgstr "Go to page"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:326
+msgid "Переход на страницу вперед"
+msgstr "Go to page forward"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:337
+msgid "Переход на последнюю страницу"
+msgstr "Go to last page"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:368
+msgid "Выводить по"
+msgstr "Show "
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:368
+msgid "записей на страницу"
+msgstr "records per page"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:375
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:382
+msgid "все&nbsp;записи"
+msgstr "All&nbsp;records "
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:382
+msgid "Внимание! Вывод может потребовать большого количества времени!"
+msgstr "Warning! Output may require a large amount of time!"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/DataPaging.class.php:387
+msgid "Всего&nbsp;на&nbsp;стр."
+msgstr "Total&nbsp;on&nbsp;page"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:160
+msgid "-- Выберите элемент --"
+msgstr "-- Select an item --"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:905
+msgid "Размер файла превышает максимальный"
+msgstr "File size exceeds the maximum"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:906
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:998
+msgid "Невозможно загрузить файл. Попробуйте еще раз."
+msgstr "Unable to load file. Try again."
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:907
+msgid "Неверный тип файла"
+msgstr "Invalid file type"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:908
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:1000
+msgid "Файл не загружен"
+msgstr "File not loaded"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:909
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:1001
+msgid "Переменная не является загруженным файлом"
+msgstr "Variable is not the downloaded file"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:910
+msgid "Не указан путь к директории ресурсов"
+msgstr "No route to a directory of resources"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:997
+msgid "Размер изображения превышает максимальный"
+msgstr "Image size exceeds the maximum"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:999
+msgid "Неверный тип файла. Разрешенные типы: gif, jpeg, png"
+msgstr "Invalid file type. Allowed types: gif, jpeg, png"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/Misc.functions.php:1345
+msgid "Всего на стр."
+msgstr "Total on page"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FormContainers.php:86
+msgid "Переключение языка ввода"
+msgstr "Switch input language"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FormContainers.php:139
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FormContainers.php:146
+msgid "Неверный тип контейнера формы!"
+msgstr "Wrong type of container!"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FieldBlocks.php:164
+msgid "Неверный тип блока формы"
+msgstr "Wrong type of block form"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FieldBlocks.php:253
+msgid "Поле обязательно для ввода"
+msgstr "The field is required for input"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FieldBlocks.php:679
+msgid "Повторный ввод пароля"
+msgstr "Retype password"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FieldBlocks.php:1315
+#: p:\virab-tests\htdocs/library/libcruiser4/form/FieldBlocks.php:1330
+msgid "Выбран:&nbsp;"
+msgstr "child&nbsp;to"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/table/TableViewer.php:225
+msgid "Сортировка по полю"
+msgstr "Sort by field"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/table/TableViewer.php:226
+msgid "Направление сортировки"
+msgstr "Sort direction"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/table/TableViewer.php:227
+msgid "Удалить сортировку по полю"
+msgstr "Delete sorting on the field"
+
+#: p:\virab-tests\htdocs/library/libcruiser4/table/TableViewer.php:238
+msgid "Записей нет"
+msgstr "No record"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:28
+msgid "SQL_ERROR: "
+msgstr "SQL_ERROR: "
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:58
+msgid "WYSIWYG - элемент"
+msgstr "WYSIWYG - element"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:62
+msgid "Адрес файла"
+msgstr "Address file"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:66
+msgid "Код в базе данных"
+msgstr "Code in the database"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:70
+msgid "URL - адрес"
+msgstr "URL"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:74
+msgid "Простой текст"
+msgstr "Plain text"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:84
+msgid "январь"
+msgstr "January"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:85
+msgid "февраль"
+msgstr "February"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:86
+msgid "март"
+msgstr "March"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:87
+msgid "апрель"
+msgstr "April"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:88
+msgid "май"
+msgstr "May"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:89
+msgid "июнь"
+msgstr "June"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:90
+msgid "июль"
+msgstr "July"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:91
+msgid "август"
+msgstr "August"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:92
+msgid "сентябрь"
+msgstr "September"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:93
+msgid "октябрь"
+msgstr "October"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:94
+msgid "ноябрь"
+msgstr "November"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:95
+msgid "декабрь"
+msgstr "December"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:98
+msgid "января"
+msgstr "January"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:99
+msgid "февраля"
+msgstr "February"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:100
+msgid "марта"
+msgstr "March"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:101
+msgid "апреля"
+msgstr "April"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:102
+msgid "мая"
+msgstr "May"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:103
+msgid "июня"
+msgstr "June"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:104
+msgid "июля"
+msgstr "July"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:105
+msgid "августа"
+msgstr "August"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:106
+msgid "сентября"
+msgstr "September"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:107
+msgid "октября"
+msgstr "October"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:108
+msgid "ноября"
+msgstr "November"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:109
+msgid "декабря"
+msgstr "December"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:115
+msgid "понедельник"
+msgstr "Monday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:116
+msgid "вторник"
+msgstr "Tuesday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:117
+msgid "среда"
+msgstr "Wednesday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:118
+msgid "четверг"
+msgstr "Thursday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:119
+msgid "пятница"
+msgstr "Friday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:120
+msgid "суббота"
+msgstr "Saturday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:121
+msgid "воскресенье"
+msgstr "Sunday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:124
+msgid "понедельника"
+msgstr "Monday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:125
+msgid "вторника"
+msgstr "Tuesday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:126
+msgid "среды"
+msgstr "Wednesday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:127
+msgid "четверга"
+msgstr "Thursday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:128
+msgid "пятницы"
+msgstr "Friday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:129
+msgid "субботы"
+msgstr "Saturday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:130
+msgid "воскресенья"
+msgstr "Sunday"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:141
+msgid "Никогда не отображается"
+msgstr "Never show"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:142
+msgid "Отображается только на странице"
+msgstr "This is only displayed on the page"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:143
+msgid "Выводится только при печати"
+msgstr "Output only when print"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:144
+msgid "Отображается и на странице и при печати"
+msgstr "Showing and on the page and print"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:153
+msgid "Переадресация на уровень выше"
+msgstr "Redirecting to the level above"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:154
+msgid "Выдача сообщения"
+msgstr "Show the message"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:155
+msgid "Построение того что есть"
+msgstr "The construction of what is"
+
+#: p:\virab-tests\htdocs/conf/core.cfg.php:156
+msgid "Переадресация на страницу ошибки 404"
+msgstr "Redirecting to 404 page"
+
+#~ msgid "Необходимо указать логин клиента"
+#~ msgstr "You must specify a login client"
+
+#, fuzzy
+#~ msgid "Необходимо указать email клиента"
+#~ msgstr "You must specify the email client"
+#~ msgid "Показать колонку меню"
+#~ msgstr "Show column menu"
+#~ msgid "Система удаленного администрирования сайта"
+#~ msgstr "Remote Administration Site"
+#~ msgid "Развернуть все секции меню"
+#~ msgstr "Expand all sections menu"
+#~ msgid "Свернуть все секции меню"
+#~ msgstr "Collapse all sections menu"
+#~ msgid "Скрыть колонку меню"
+#~ msgstr "Hide column menu"
+#~ msgid "Скрыть/показать секцию меню"
+#~ msgstr "Hide / Show section menu"
+#~ msgid "Добавление нового пользователя"
+#~ msgstr "New user"
+#~ msgid "Логин:"
+#~ msgstr "Login:"
+#~ msgid "Пароль:"
+#~ msgstr "Password:"
+#~ msgid "Пароль ещё раз:"
+#~ msgstr "Password again:"
+#~ msgid "Дата рождения:"
+#~ msgstr "Date of Birth:"
+#~ msgid "день"
+#~ msgstr "day"
+#~ msgid "месяц"
+#~ msgstr "month"
+#~ msgid "год"
+#~ msgstr "year"
+#~ msgid "Пол:"
+#~ msgstr "Sex:"
+#~ msgid "Женский"
+#~ msgstr "Female"
+#~ msgid "Мужской"
+#~ msgstr "Male"
+#~ msgid "Страна:"
+#~ msgstr "Country:"
+#~ msgid "Регион:"
+#~ msgstr "Region:"
+#~ msgid "Город:"
+#~ msgstr "Town:"
+#~ msgid "Индекс:"
+#~ msgstr "Postcode:"
+#~ msgid "Адрес:"
+#~ msgstr "Address:"
+#~ msgid "Телефон 1:"
+#~ msgstr "Phone 1:"
+#~ msgid "Телефон 2:"
+#~ msgstr "Phone 2:"
+#~ msgid "Телефон 3:"
+#~ msgstr "Phone 3:"
+#~ msgid "Сайт:"
+#~ msgstr "Website:"
+#~ msgid "ICQ:"
+#~ msgstr "ICQ:"
+#~ msgid "MSN:"
+#~ msgstr "MSN:"
+#~ msgid " в разделе "
+#~ msgstr "in"
+#~ msgid "Имя"
+#~ msgstr "Name"
+#~ msgid "Вы уверены, что хотите удалить данного пользователя?"
+#~ msgstr "Are you sure you want to delete this user?"
+#~ msgid "Удалить выбранные цитаты"
+#~ msgstr "Delete selected quotations"
+#~ msgid "Выберите роль пользователя"
+#~ msgstr "Choose a user role"
+#~ msgid "Неверный логин!"
+#~ msgstr "Invalid login!"
+#~ msgid "Неверный номер ICQ."
+#~ msgstr "Invalid number of ICQ."
+#~ msgid "Проверьте дату рождения"
+#~ msgstr "Check the date of birth"
+#~ msgid ""
+#~ "Неверный URL сайта. Должен быть: http://[xxx.][xxx.][...]xxxxxx.xxx[/xxxx]"
+#~ msgstr ""
+#~ "Invalid URL. Should be: http:// [xxx.] [xxx .][...] xxxxxx.xxx [/ xxxx]"
+#~ msgid "Редактировать языковую конструкцию"
+#~ msgstr "Edit language variable"
+#~ msgid "Вы уверены, что хотите удалить данную языковую конструкцию?"
+#~ msgstr "Are you sure you want to remove this language variable?"
+#~ msgid "Удалить языковую конструкцию"
+#~ msgstr "Delete the language variable"
+

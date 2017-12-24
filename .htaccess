@@ -1,0 +1,30 @@
+php_flag magic_quotes_gpc off
+AddDefaultCharset UTF-8
+
+php_value error_log  PHP_errors.log
+
+#php_value date.timezone “Europe/Moscow”
+
+#ErrorDocument 404  http://test.uin.in.ua/404\.html
+
+RewriteEngine   on
+Options +FollowSymLinks
+RewriteBase     /
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.(php|html|htm)\ HTTP/ 
+RewriteRule ^(.*)index\.(php|html|htm)$ $1 [R=301,L]
+
+RewriteRule     ^[0-9a-z]{32}/(.+)  /$1 [L]
+
+RewriteRule     ^admin /virab/index.php [R,L]
+
+RewriteCond    %{HTTP_HOST} ^www.sportmm.ru$ [NC]
+RewriteRule    ^(.*)$ http://sportmm.ru/$1 [R=301,L]
+
+RewriteCond     %{REQUEST_FILENAME} !-f
+RewriteRule     ^(.+) /index.php?ln=$1&%{QUERY_STRING} [L]
+
+RewriteRule     ((%3A|:)25|%0D%0A) - [G]
+
+#RewriteCond  %{REQUEST_FILENAME} /catalog/group:38/ [NC]
+#RewriteRule ^.\w+.\w+:[3][8].$ /catalog/group:1013/ [R=301,L]

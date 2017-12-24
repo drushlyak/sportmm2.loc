@@ -1,0 +1,170 @@
+/*@import 'css/grid.css';*/
+#ajaxIndicator {
+	position:fixed;
+	top:0px; 
+	right:0px;
+	display:none;
+	width: 200px; height: 20px; 
+	border: 1px solid gray; 
+	color: Red;
+	text-align: center; 
+	background: #F9F9F9 url(images/snake.gif) no-repeat 10px 2px;
+}	
+* html #ajaxIndicator {
+	position:absolute;
+	top: expression(web2.win.getScrollSize().height + 'px');
+}
+
+/* Scroll table */
+#rightsdiv {
+	clear: both;
+	height: 300px;
+	margin-right: 27px;
+}
+#usersdiv {
+	width: 48.5%;
+	height: 150px;
+	margin: 0 5px 10px 0;
+	float: left;
+}
+#objsdiv {
+	width: 48.5%;
+	height: 150px;
+	margin: 0 0 10px 5px;
+}
+.scroll-table {
+	border: 1px solid #909090;
+	overflow: auto; 
+}
+* html .scroll-table #xv_datagrid {
+	width:expression((this.parentNode.offsetWidth - 22) + 'px');
+}
+* html .scroll-table #xv_ug_datagrid {
+	width:expression((this.parentNode.offsetWidth - 22) + 'px');
+}
+
+* html .scroll-table #xv_obj_datagrid {
+	width:expression((this.parentNode.offsetWidth - 22) + 'px');
+}
+
+* html .scroll-table thead th {
+	position: relative;
+}
+
+/* object right */
+
+#xv_obj_datagrid th, #xv_datagrid th {
+	border-bottom: 2px solid #ED1C24;
+	font-family:tahoma;
+	font-weight: normal;
+	background-color:#f9f9f9;
+	color:#ED1C24;
+	font-size:12px;
+}
+
+#xv_obj_datagrid td {
+	cursor:pointer;
+}
+
+
+/* change rights */
+
+#rightsline {
+	padding-top: 5px;
+}
+
+#xv_ug_datagrid th {
+	border-bottom: 2px solid #ED1C24;
+	font-family:tahoma;
+	font-weight: normal;
+	background-color:#f9f9f9;
+	color:#ED1C24;
+	font-size:12px;
+}
+
+#xv_ug_datagrid td {
+	cursor:pointer;
+	width: 100%;
+}
+
+/* Modal */
+
+.web2ui-modalbox-overlay {
+     position: absolute;
+     z-index: 200;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     height: 100%;
+     opacity: .4;
+     filter: alpha(opacity=40);
+     background-color:ButtonFace;
+}
+.web2ui-modalbox-container {
+     z-index:300;
+     position:absolute;
+     left:0px; top:0px;
+     background-color: #f9f9f9; 
+     border-top: 1px solid Gray; 
+     border-left: 2px solid Gray; 
+     border-right: 2px solid Gray; 
+     border-bottom: 2px solid Gray;
+}
+.web2ui-modalbox-header {
+     float:left; clear:both;
+     padding:2px;
+     background-color:#CCC;
+     cursor:move;     
+     -moz-user-select:none;
+}
+.web2ui-modalbox-title {
+     float:left;
+	  color: #EE0000;
+     font-weight:bold;
+}
+.web2ui-modalbox-close {
+     display:block;
+     float:right;
+     width:17px; height:17px;
+     background-image:url(images/close_box.gif);
+}
+.web2ui-modalbox-frame {
+     width:100%;
+     height:1px;
+     border:0px;
+}
+
+/** grid */
+#xv_datagrid {
+	border:0pt none;
+	border-collapse:collapse;
+	width:100%;
+}
+#xv_datagrid th {
+	background-color:#F9F9F9;
+	border-bottom:2px solid #ED1C24;
+	border-top:2px solid #E6E6E6;
+	color:#ED1C24;
+	font-size:12px;
+	font-weight:normal;
+	height:16px;
+}
+#xv_datagrid th.checker {
+	text-align:center;
+	width:20px;
+}
+#xv_datagrid tr.hover {
+	background-color:#F9F9F9;
+}
+#xv_datagrid td {
+	border-color:#E6E6E6;
+	border-style:solid;
+	border-width:0pt 0pt 2px;
+	padding:4px;
+}
+#xv_datagrid .actions {
+	text-align:center;
+	vertical-align:top;
+}
+
+

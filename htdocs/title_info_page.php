@@ -1,0 +1,1 @@
+<?=$_SESSION['pitanie_message_header']?>

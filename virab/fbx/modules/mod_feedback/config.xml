@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<var>mod_feedback</var>
+	<type>mod</type>
+	<creation_date>2011-11-29</creation_date>
+	<version>0.0.1</version>
+	<description>Отзывы</description>
+	<sql>mod_feedback.sql</sql>
+	<circuits>
+		<circuit name="mod_feedback" path=""></circuit>
+	</circuits>
+	<tables>
+	    <table const="CFG_DBTBL_MOD_FEEDBACK_TEXT" name="mod_feedback_txt"></table>
+	    <table const="CFG_DBTBL_MOD_FEEDBACK_GROUP" name="mod_feedback_group"></table>
+	</tables>
+	<menu>
+		<item title="Отзывы" url="mod_feedback.cat_main" menu="1" edt="0">
+			<item title="Новый раздел" url="mod_feedback.cat_form" menu="0" edt="1"></item>
+			<item title="Тексты отзывов" url="mod_feedback.main" menu="0" edt="0">
+				<item title="Добавить отзыв" url="mod_feedback.form" menu="0" edt="1"></item>
+			</item>
+		</item>
+	</menu>
+	<acl>
+		<privileges>
+			<privilege var="create" name="Создание"></privilege>
+			<privilege var="edit" name="Редактирование"></privilege>
+			<privilege var="delete" name="Удаление"></privilege>
+			<privilege var="view" name="Просмотр"></privilege>
+		</privileges>
+	</acl>
+	<includes>
+	    <inc file="teFeedbackTemplate_class.php" class="teFeedbackTemplate"></inc>
+	</includes>
+	<tmpls>
+		<tmpl name="TE_VALUE_FEEDBACK"></tmpl>
+	</tmpls>
+	<tetypes>
+		<tetype name="TE_VALUE_FEEDBACK" title="Отзывы" firstchar="feed"></tetype>
+	</tetypes>
+	<vars>
+		<var name="feedbacknum"></var>
+		<var name="feedbackdate"></var>
+		<var name="feedbacktext"></var>
+		<var name="feedbackauthor"></var>
+		<var name="feedbackmail"></var>
+	</vars>
+	<displays>
+		<dsp file='dsp_AclFeedback.php'></dsp>
+	</displays>
+</module>

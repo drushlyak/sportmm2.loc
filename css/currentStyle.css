@@ -1,0 +1,119 @@
+/*!
+Введены стили чтобы перекрыт стили Bootstrap, которые не устраивают дизайнера (по размеру)
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+
+
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-weight: 600;
+}
+
+h1,
+.h1 {
+  font-size: 28px;
+}
+
+h3,
+.h3 {
+  font-size: 18px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+#forHeadingH3{
+  color: #00aae3;
+  font-family: ‘Open Sans’, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+p.forHeadingH2News{
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-size: 22px;
+  padding: 5px 25px 4px 37px;
+  display: inline-block;
+  background: url(/images/ico/articles.png?1379336793) no-repeat;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: inherit;
+  outline: 0;
+}
+
+p.ico-star {
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background-color: #fff !important;
+  font-size: 1.4em;
+  padding: 5px 25px 4px 37px;
+  background: url('/images/ico/star.png?1379325138') no-repeat;
+  display: inline-block;
+  vertical-align: baseline;
+  outline: 0;
+}
+
+
+p.ico-news {
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-size: 1.4em;
+  padding: 5px 25px 4px 37px;
+  background: url('/images/ico/news.png?1379336766') no-repeat;
+  display: inline-block;
+  vertical-align: baseline;
+  outline: 0;
+}
+
+p.ico-articles {
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-size: 1.4em;
+  padding: 5px 25px 4px 37px;
+  background: url('/images/ico/articles.png?1379336793') no-repeat;
+  display: inline-block;
+  vertical-align: baseline;
+  outline: 0;
+}
+
+p.ico-encyclopedy {
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-size: 1.4em;
+  padding: 5px 25px 4px 37px;
+  background: url('/images/ico/encyclopedy.png?1379336812') no-repeat;
+  display: inline-block;
+  vertical-align: baseline;
+  outline: 0;
+}

@@ -1,0 +1,64 @@
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index: f6fd7575d6 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[23-Aug-2017 11:19:33 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/acl/users/dsp_Main.php on line 102
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index: f6fd7575d6 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 08:37:06 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/acl/users/dsp_Main.php on line 102
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index: f6fd7575d6 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 08:37:11 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/acl/users/dsp_Main.php on line 102
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index: f6fd7575d6 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 11:01:37 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/acl/users/dsp_Main.php on line 102
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index: f6fd7575d6 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 11:01:41 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/acl/users/dsp_Main.php on line 102
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index: f6fd7575d6 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 14:23:22 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/acl/users/dsp_Main.php on line 102
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 47
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index: t_users in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 48
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index:  in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataHelper.class.php on line 50
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index: countsList in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 74
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index: countDispPages in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 78
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index: pgngcfg in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 97
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index: f6fd7575d6 in /home/taat138/domains/uin.in.ua/public_html/test/library/libcruiser4/DataPaging.class.php on line 106
+[30-Aug-2017 14:23:24 UTC] PHP Notice:  Undefined index: str_error in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/acl/users/dsp_Main.php on line 102
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index: t_users in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 47
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index: t_users in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 48
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index:  in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataHelper.class.php on line 50
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index: countsList in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 74
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index: countDispPages in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 78
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index: pgngcfg in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 97
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index: f6fd7575d6 in /home/ammas122/domains/sportmm.ru/public_html/library/libcruiser4/DataPaging.class.php on line 106
+[12-Sep-2017 21:59:35 Europe/Moscow] PHP Notice:  Undefined index: str_error in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/acl/users/dsp_Main.php on line 102

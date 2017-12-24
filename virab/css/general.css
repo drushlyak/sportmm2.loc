@@ -1,0 +1,1031 @@
+body {
+	background-color: #FFF;
+}
+
+body,table,tr,td,form,p {
+	font-size: 13px;
+	font-family: Tahoma;
+	color: #737373;
+	text-align: justify;
+	word-spacing: normal;
+	letter-spacing: normal;
+}
+
+input,textarea,select {
+	background-color: #FFFFFF;
+	border: 1px solid #B9B9B9;
+	font-size: 13px;
+	font-family: Tahoma;
+}
+
+A {
+	font-weight: normal;
+	color: #737373;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A:hover {
+	font-weight: normal;
+	color: #A93535 !important;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A:link {
+	font-weight: normal;
+	color: #737373;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A.menu {
+	font-weight: normal;
+	color: #737373;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A:hover.menu {
+	font-weight: normal;
+	color: #909090;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A:link.menu {
+	font-weight: normal;
+	color: #737373;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A.submit {
+	font-weight: bold;
+	color: #737373;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A.submit:hover {
+	font-weight: bold;
+	color: #737373;
+	font-style: normal;
+	text-decoration: none;
+}
+
+A.submit:link {
+	font-weight: bold;
+	color: #737373;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.leftAlign {
+	text-align: left !important;
+}
+
+.hhideDisabled {
+	filter: alpha(opacity = 30);
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+}
+
+.sm_bld_g {
+	font-weight: bold;
+	font-size: 9px;
+	color: #909090;
+}
+
+.bld {
+	font-weight: bold;
+}
+
+.big_red {
+	font-weight: bold;
+	color: #ED1C24;
+	font-size: 16;
+}
+
+.normal_red {
+	font-weight: bold;
+	color: #ED1C24;
+	font-size: 12;
+}
+
+.small_red {
+	color: #ED1C24;
+	font-size: 9px;
+	font-weight: normal;
+}
+
+.small_yellow {
+	font-weight: normal;
+	color: green;
+	font-size: 11;
+}
+
+.big_grey {
+	font-weight: bold;
+	color: #737373;
+	font-size: 16;
+}
+
+.normal_grey {
+	font-weight: bold;
+	color: #737373;
+	font-size: 12;
+}
+
+.small_grey {
+	font-weight: normal;
+	color: #737373;
+	font-size: 11;
+}
+
+.vsmall_grey {
+	font-weight: bold;
+	color: #B9B9B9;
+	font-size: 7;
+	text-align: left;
+}
+
+.gradusnik {
+	font-weight: bold;
+	color: #737373;
+	font-size: 13;
+}
+
+.light_grey {
+	color: #B9B9B9;
+}
+
+A.light_grey {
+	color: #B9B9B9;
+}
+
+A.light_grey:hover {
+	color: #FF0000;
+}
+
+A.light_grey:link {
+	color: #B9B9B9;
+}
+
+.underline_txt {
+	text-decoration: underline;
+}
+
+.left_txt {
+	text-align: left;
+}
+
+.right_txt {
+	text-align: right;
+}
+
+.floatNone {
+	clear: both;
+}
+
+/* Main Layout */
+.TVirabMark {
+	bottom: 0;
+	color: #FCFCFC;
+	font-size: 400px;
+	position: absolute;
+	right: 0;
+	text-shadow: 1px 1px 3px #FAFAFA;
+	z-index: 0;
+}
+
+.TVirabBody {
+	margin: 0;
+	background-color: #FFF;
+	position: relative;
+	overflow-x: hidden;
+	height: 100%
+}
+
+.TVirabLeftBox {
+	position: absolute;
+	left: 0;
+	width: 250px;
+}
+
+.TVirabRightBox {
+	height: 100%;
+	margin-bottom: -30px;
+	position: absolute;
+	left: 257px;
+	width: 1000px;
+}
+
+.ui-resizable-e {
+	background: transparent url("../images/ruler_line.png") no-repeat 0 0;
+	right: -15px !important;
+	width: 25px !important;
+}
+
+/* Page Elements */
+.TVirabLanguageChange {
+	border: 1px solid #CCC;
+	cursor: default;
+}
+
+.TVirabLanguageNotSelect {
+	cursor: pointer;
+	opacity: .2;
+	-moz-opacity: .2;
+	filter: alpha(opacity =       20);
+	border: 1px solid #EEE;
+}
+
+.TVirabTITLE {
+	border-bottom: 1px solid #B9B9B9;
+	height: 44px;
+	padding: 3px;
+	background: #EEE url(../images/label.png) no-repeat 0 0;
+	cursor: pointer;
+}
+
+* html .TVirabTITLE {
+	background: #EEE url(../images/label.gif) no-repeat 0 0;
+}
+
+/**
+================================================================================================================
+ Virab Menu
+================================================================================================================
+**/
+.TVirabMenu {
+	padding: 10px 5px 0 10px;
+	background-color: #FFF;
+}
+
+.TVirabMenu,.TVirabMenu ul {
+	margin: 0;
+	list-style: none;
+	text-shadow: 1px 1px #F1F1F1;
+}
+
+.TVirabMenu ul {
+	padding: 0;
+	margin: 0;
+}
+
+.TVirabMenu .HoverLI {
+	background: transparent url(../images/point_mn.gif) no-repeat scroll
+		left 8px !important;
+	cursor: pointer;
+}
+
+.TVirabMenu .selected_node a {
+	color: #ED1C24;
+}
+
+.TVirabMenu .selected_node_l a {
+	color: #b9171f;
+}
+
+.TVirabMenu li.fLI {
+	background: transparent url(../images/dn_mn.gif) no-repeat scroll left
+		7px;
+	font-weight: bold;
+	line-height: 20px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	padding-left: 15px;
+}
+
+.TVirabMenu li.fLI span {
+	padding-left: 2px;
+}
+
+.TVirabMenu li.fLIcollapsed {
+	background: transparent url(../images/up_mn.gif) no-repeat scroll left
+		7px;
+	color: #A0A0A0;
+}
+
+.TVirabMenu li.fLIcollapsed ul {
+	display: none;
+}
+
+.TVirabMenu li.sLI {
+	padding-left: 15px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+/**
+	/Virab Menu
+================================================================================================================
+**/
+.TVirabVersion {
+	text-align: right;
+	border-bottom: 1px solid #B9B9B9;
+	height: 44px;
+	padding: 3px;
+	background-color: #EEE;
+}
+
+.TVirabNavLine {
+	border-bottom: 2px solid #E6E6E6;
+	padding: 3px 0;
+}
+
+.TVirabQuickHelp {
+	padding: 2px 3px 3px;
+	background-color: #EEE;
+	border-bottom: 2px solid #E6E6E6;
+}
+
+/* main page */
+.mp_top_header {
+	background-color: #E0E0E0;
+	height: 30px;
+}
+
+.mainPageElFL {
+	width: 25%;
+	float: left;
+	border-left: 1px solid #E0E0E0;
+	height: 220px;
+}
+
+.mainPageElSL {
+	width: 25%;
+	float: left;
+	border-left: 1px solid #E0E0E0;
+	height: 200px;
+}
+
+.mainPageElNotice {
+	width: 49%;
+	float: left;
+	border-left: 1px solid #E0E0E0;
+	border-top: 1px solid #E0E0E0;
+	background: #FFF url(../images/main/info.gif) no-repeat 0px 0px;
+	height: 200px;
+}
+
+.mp_struct {
+	background: #FFF url(../images/main/struct.gif) no-repeat -7px -7px;
+}
+
+.mp_admin {
+	background: #FFF url(../images/main/admin.gif) no-repeat -7px -7px;
+}
+
+.mp_acl {
+	background: #FFF url(../images/main/rules.gif) no-repeat -7px -7px;
+}
+
+.mp_modules {
+	background: #FFF url(../images/main/modules.gif) no-repeat -7px -7px;
+}
+
+.mp_dictionaries {
+	background: #FFF url(../images/main/dicts.gif) no-repeat -7px -7px;
+}
+
+.mp_element_name a,.mp_element_notice {
+	color: #ED1C24;
+	font-weight: bold;
+	padding-left: 60px;
+	padding-top: 5px;
+}
+
+.mp_element_notice {
+	padding-left: 25px;
+}
+
+.ml_sub_block {
+	padding-left: 75px;
+	width: 20%;
+}
+
+* html .ml_sub_block {
+	padding-left: 35px;
+}
+
+.ml_sub_block li {
+	padding-bottom: 5px;
+}
+
+.mp_help_info {
+	text-align: left;
+	padding: 0 25px;
+}
+
+/* Error */
+.cerr {
+	color: red;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #CCC;
+	background-color: #ffdfdf;
+}
+
+/* Message */
+.cmessage {
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #CCC;
+	background-color: #CBFFD1;
+}
+
+/* Tables */
+.loadingTableContent {
+	color: #555 !important;
+	cursor: default !important;
+	opacity: 0.2 !important;
+	filter: alpha(opacity = 20) !important;
+}
+
+.t_virab_tree {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.t_virab_tree td,.t_virab_tree th {
+	border-collapse: collapse;
+	border-bottom: 1px dotted #E6E6E6;
+	vertical-align: middle;
+}
+
+.t_virab_tree .trhover {
+	background-color: #F9F9F9 !important;
+}
+
+.t_virab_tree .headTable,.t_virab_tree .headTable a {
+	font-weight: bold;
+	color: #FF0000;
+	background-color: #F9F9F9;
+	text-align: center;
+	height: 19px;
+}
+
+.t_virab_tree .sortingHeadTable,.t_virab_tree .sortingHeadTable a {
+	font-weight: bold;
+	color: #737373;
+	background-color: #F9F9F9;
+	text-align: center;
+	height: 19px;
+}
+
+.t_virab_tree .del_sorting_header {
+	font-size: 9px !important;
+	font-weight: normal !important;
+	color: black !important;
+}
+
+.t_virab_tree .arrow_sorting_header {
+	color: #444;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.t_virab_tree .noRecordInTable td {
+	text-align: center;
+}
+
+.t_virab_tree .link_copy {
+	text-decoration: underline;
+	cursor: pointer;
+	color: green;
+}
+
+.t_virab_tree .chbox {
+	border: 0px;
+	margin: 2px 0;
+}
+
+.t_virab_tree .nonTextEl {
+	font-size: 0px;
+}
+
+.t_virab_tree .spacer td {
+	border-top: 3px solid red;
+	border-bottom: 0px;
+}
+
+.t_virab_tree .nodechbox {
+	text-align: center;
+	height: 19px;
+}
+
+.t_virab_tree .nodetd {
+	text-align: left;
+	height: 19px;
+}
+
+.t_virab_tree .nodetd a {
+	cursor: pointer;
+}
+
+.t_virab_tree .txtcenter {
+	text-align: center !important;
+}
+
+.t_virab_tree .txtright {
+	text-align: right !important;
+}
+
+.t_virab_tree .action_title {
+	width: 100%;
+	height: 25px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+}
+
+.t_virab_tree .action_title span {
+	color: #FF0000;
+	text-align: left;
+	font-weight: bold;
+}
+
+.t_virab_tree .action_node {
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 0;
+}
+
+.t_virab_tree .photo {
+	border: 1px solid #EEE;
+}
+
+.t_table_pager {
+	padding: 7px;
+	width: 100%;
+	border: 0 !important;
+}
+
+.t_table_pager .t_virab_tree {
+	background-color: #FCFCFC;
+}
+
+.t_table_pager .t_virab_tree td {
+	border: 0;
+}
+
+.t_virab_action_table {
+	list-style-position: outside;
+	list-style-image: url(../images/dwn_but.gif);
+	padding: 0;
+	margin: 0;
+}
+
+* html .t_virab_action_table li {
+	list-style: none;
+	padding-left: 16px;
+	background: transparent url(../images/dwn_but.gif) no-repeat 5px center;
+	width: 20%;
+}
+
+.t_virab_action_table li {
+	border-left: 1px solid #737373;
+	float: left;
+	padding-left: 6px;
+	text-align: left;
+	width: auto;
+	margin-right: 25px;
+}
+
+.t_virab_tree .nodesaction {
+	font-size: 7px;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+
+.t_virab_tree .nodesaction a {
+	visibility: hidden;
+}
+
+.t_virab_tree .trhover .nodesaction a {
+	visibility: visible !important;
+}
+
+/* template */
+.template_error {
+	color: red;
+}
+
+.template_copy {
+	color: green;
+}
+
+/* Forms */
+.tvirabForm {
+	font-size: 1em;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.tvirabForm fieldset.main {
+	width: auto;
+	border: solid 1px #E6E6E6;
+	background-color: #fbfbfb;
+	padding: 0 7px 7px;
+}
+
+.tvirabForm fieldset {
+	width: auto;
+	border: 1px solid #d9d9d9;
+	padding: 7px 6px 6px 8px;
+	margin-bottom: 5px;
+}
+
+.tvirabForm legend {
+	color: #333;
+	background: inherit;
+}
+
+.tvirabForm legend.main {
+	color: #333;
+	background: #FFFFFF url(../images/grad.gif) repeat-x scroll center
+		bottom;
+	padding: 4px;
+	margin-bottom: 1.1em;
+}
+
+.tvirabForm label {
+	float: left;
+	width: 13em;
+	line-height: 1em;
+	margin-right: 0.2em;
+	text-align: right;
+}
+
+.tvirabForm .tvirabFieldset label {
+	width: 12em;
+}
+
+.tvirabForm fieldset.hiddenFieldset {
+	border: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-left: 9px;
+}
+
+.tvirabForm FIELDSET.hiddenFieldset LEGEND {
+	font-size: 0px;
+}
+
+.tvirabForm input,.tvirabForm select,.tvirabForm textarea {
+	margin: 0 0 1em 0.2em;
+	/*width: 20em;*/
+	padding: 1px;
+}
+
+.tvirabForm input.textfield {
+	background-image: url(../images/textfield.gif);
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	padding-left: 11px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.tvirabForm input.autosuggestTextField {
+	border: 1px solid #7C98FF;
+}
+
+.tvirabForm textarea.textfield {
+	background-image: url(../images/textarea.gif);
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.tvirabForm input:focus, .tvirabForm textarea:focus, .tvirabForm select:focus {
+	background-color: #f7fff2;
+}
+
+.tvirabForm input:hover, .tvirabForm textarea:hover, .tvirabForm select:hover {
+	background-color: #ffffee;
+}
+
+.tvirabForm .noresize {
+	width: auto;
+}
+
+.tvirabForm .submit {
+	margin: 15px 0 5px 0; /* 10.3em */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 0 1em #CCCCCC;
+	-webkit-box-shadow: 0 0 1em #CCCCCC;
+	box-shadow: 2px 2px 5px #CCCCCC;
+	text-shadow: 1px 1px #F1F1F1;
+	cursor: pointer;
+	padding: 2px 25px;
+}
+.tvirabForm .submit:hover {
+	box-shadow: 0 0 !important;
+}
+
+.tvirabForm .hidden_field {
+	position: absolute;
+	left: -10000px;
+	top: -10000px;
+	visibility: hidden;
+	display: none;
+}
+
+.tvirabForm .collapse_field,.tvirabForm .collapse_field * {
+	color: transparent !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	border-color: transparent !important;
+	height: 1px;
+}
+
+.tvirabForm .retarded_field {
+	position: absolute;
+	left: -10000px;
+	top: -10000px;
+}
+
+.tvirabForm .lng {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tvirabForm .lng_checked {
+	font-weight: bold;
+}
+
+/* Textfield */
+.tvirabForm .txtbegin {
+	padding-left: 10px;
+	padding-bottom: 5px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.tvirabForm .txtend {
+	text-align: left;
+	padding-bottom: 5px;
+	vertical-align: middle;
+}
+
+/* textarea + editor */
+.tvirabForm .switchspan {
+	display: block;
+	margin-left: 138px;
+}
+
+.tvirabForm .switchspan div[id] {
+	display: inline;
+}
+
+.tvirabForm .switchspan label {
+	float: none;
+	margin-left: 4px;
+	vertical-align: top;
+}
+
+* html .tvirabForm .switchspan label {
+	margin-left: -8px;
+	line-height: 20px;
+}
+
+.tvirabForm .switchspan input {
+	margin: 0;
+}
+
+.tvirabForm .textarea_w_edit {
+	margin-bottom: 4px;
+}
+
+.tvirabForm .required_field {
+	color: #ED1C24;
+	font-family: sans-serif;
+	font-size: 9px;
+	vertical-align: top;
+}
+
+/* WYSIWYG */
+.tvirabForm .spaw2litetabstrip {
+	display: none;
+}
+
+/* VirabTFImages */
+.tvirabForm ul.VirabTFImages {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0 0 1em 0.2em;
+}
+
+.tvirabForm ul.VirabTFImages li {
+	display: inline;
+}
+
+.tvirabForm ul.VirabTFImages li img {
+	border: 1px solid #CCC;
+}
+
+/* SimpleText */
+.tvirabForm .SimpleText {
+	margin: 0 5px 5px 13.2em;
+	padding: 0 5px 5px 5px;
+	background-color: #FFF;
+	border: 1px solid #EEE;
+}
+
+/* VirabTFTextFieldWithCheckPresent */
+.tvirabForm .TextFieldWithCheckPresentCheckButton {
+	-moz-border-radius: 3px 3px 3px 3px;
+	background-color: #EEEEEE;
+	border: 1px solid;
+	cursor: pointer;
+	height: 15px;
+	position: absolute;
+	text-align: center;
+	width: 15px;
+}
+
+.tvirabForm .TextFieldWithCheckPresentCheckResult {
+	border: 1px solid #FBFBFB;
+	color: green;
+	font-weight: bold;
+	height: 16px;
+	position: absolute;
+	text-align: center;
+	width: 15px;
+}
+
+/* VirabTFTextareaExt */
+.tvirabForm .VirabTFTextareaExtChanger {
+	-moz-border-radius: 3px 3px 3px 3px;
+	background-color: #EEEEEE;
+	border: 1px solid;
+	cursor: pointer;
+	height: 15px;
+	position: absolute;
+	text-align: center;
+	width: 20px;
+}
+
+/* CheckboxGroup */
+.tvirabForm .CheckboxGroupUL {
+	float: left;
+	margin: 0 0 5px 2px;
+	padding: 0;
+	list-style: none;
+}
+
+.tvirabForm .CheckboxGroupUL li INPUT {
+	margin: 0 0 5px 0;
+}
+
+/*-------------------------------------------------------------------------------------------------
+auth
+-------------------------------------------------------------------------------------------------*/
+.authBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+}
+
+.auth {
+	position: absolute;
+	top: -43px;
+	left: -197px;
+	margin: 0;
+	padding: 0;
+	width: 395px;
+	height: 87px;
+	background: url(../images/auth.gif) no-repeat left top;
+}
+
+.auth form {
+	margin: 0;
+	padding: 0;
+}
+
+.authForm-login {
+	position: absolute;
+	top: 27px;
+	left: 266px;
+	margin: 0 3px 0 3px;
+	padding: 1px 0 0 0;
+	width: 122px;
+	height: 14px;
+	background: none;
+	border: none;
+	color: #737373;
+	font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.authForm-passw {
+	position: absolute;
+	top: 48px;
+	left: 266px;
+	margin: 0 3px 0 3px;
+	padding: 1px 0 0 0;
+	width: 122px;
+	height: 14px;
+	background: none;
+	border: none;
+	color: #737373;
+	font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.authForm-submit {
+	position: absolute;
+	top: 68px;
+	left: 360px;
+	margin: 0;
+	padding: 0;
+	width: 33px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.authErrorMsg {
+	color: red;
+	margin-left: -100px;
+	margin-top: -80px;
+	width: 395px;
+}
+
+/* VirabTFInteractiveAutosuggestSelectItem и потомки */
+
+.VirabTFISIFieldset {
+
+}
+.VirabTFISITable {
+	margin-bottom: 10px;
+}
+.VirabTFISIHeader {
+	background-color: #555;
+}
+.VirabTFISIHeader td {
+	border: 1px solid #CCCCCC;
+	color: #555555;
+	font-weight: bold;
+	padding: 3px 5px;
+	text-align: center;
+}
+.VirabTFISIButton {
+	margin: 0 !important;
+}
+.VirabTFISITable tr td {
+	background-color: #F5F5F5;
+}
+.VirabTFISITable td {
+
+}
+.VirabTFISITable td input,
+.VirabTFISITable td select {
+	margin: 0 !important;
+}
+
+.VirabTFISITable tr.VirabTFISITR_ td {
+	background-color: #F7F7F7;
+	border: 0 none;
+	font-weight: normal;
+	text-align: left;
+}
+
+.VirabTFISITable .centerText {
+	text-align: center !important;
+}
+
+.tvirabForm .eraseFieldButton {
+	background-color: #EEEEEE;
+	border: 1px solid #CCC;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 0 1em #CCCCCC;
+	-webkit-box-shadow: 0 0 1em #CCCCCC;
+	box-shadow: 2px 2px 5px #CCCCCC;
+	text-shadow: 1px 1px #F1F1F1;
+
+	cursor: pointer;
+	height: 15px;
+	position: absolute;
+	text-align: center;
+	width: 15px;
+	font-size: 10px;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<var>mod_foto</var>
+	<type>mod</type>
+	<creation_date>2009-06-25</creation_date>
+	<version>0.0.1</version>
+	<description>Фотогалерея</description>
+	<sql>mod_foto.sql</sql>
+	<circuits>
+		<circuit name="mod_foto" path=""></circuit>
+	</circuits>
+	<tables>
+	    <table const="CFG_DBTBL_MOD_FOTO" name="mod_foto"></table>
+	    <table const="CFG_DBTBL_MOD_FOTO_GRTREE" name="mod_fotogr_struct"></table>
+	    <table const="CFG_DBTBL_MOD_FOTO_GRDATA" name="mod_fotogr_data"></table>
+	</tables>
+	<menu>
+		<item title="Фотогалерея NEW" url="mod_foto.cat_main" menu="1" edt="0">
+			<item title="Новый раздел" url="mod_foto.cat_form" menu="0" edt="1"></item>
+			<item title="Фотографии" url="mod_foto.main" menu="0" edt="0">
+				<item title="Новая фотография" url="mod_foto.form" menu="0" edt="1"></item>
+			</item>
+		</item>
+	</menu>
+	<acl>
+		<privileges>
+			<privilege var="create" name="Создание"></privilege>
+			<privilege var="edit" name="Редактирование"></privilege>
+			<privilege var="delete" name="Удаление"></privilege>
+			<privilege var="view" name="Просмотр"></privilege>
+			<privilege var="change_parent" name="Изменение родителя"></privilege>
+			<privilege var="change_position" name="Изменение позиции"></privilege>
+		</privileges>
+	</acl>
+	<includes>
+	    <inc file="teFotoTemplate_class.php" class="teFotoTemplate"></inc>
+	</includes>
+	<tmpls>
+		<tmpl name="TE_VALUE_FOTO"></tmpl>
+	</tmpls>
+	<tetypes>
+		<tetype name="TE_VALUE_FOTO" title="Фотогаллерея" firstchar="foto"></tetype>
+	</tetypes>
+	<vars>
+		<var name="fototitle"></var>
+		<var name="fotodate"></var>
+		<var name="fototime"></var>
+		<var name="fotodesc"></var>
+		<var name="fotoimage"></var>
+		<var name="fotolink"></var>
+		<var name="_fotolink"></var>
+	</vars>
+	<settings>
+		<setting name='max_fotogr_size' value='5051200'></setting>
+		<setting name='image_text' value=''></setting>
+	</settings>
+	<displays>
+		<dsp file='dsp_AclFoto.php'></dsp>
+	</displays>
+</module>

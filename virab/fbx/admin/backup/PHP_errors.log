@@ -1,0 +1,26 @@
+[23-Aug-2017 11:22:13 UTC] PHP Warning:  dir(/home/taat138/domains/uin.in.ua/public_html/test/resources/backup): failed to open dir: No such file or directory in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 13
+[23-Aug-2017 11:22:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on boolean in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php:14
+Stack trace:
+#0 /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/qry_Main.php(11): getDirStruct('/home/taat138/d...')
+#1 /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/fbx_Switch.php(23): include('/home/taat138/d...')
+#2 /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx_Fusebox3.0_PHP4.1.x.php(256): include('/home/taat138/d...')
+#3 /home/taat138/domains/uin.in.ua/public_html/test/virab/index.php(9): require_once('/home/taat138/d...')
+#4 {main}
+  thrown in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 14
+[23-Aug-2017 21:26:16 UTC] PHP Warning:  dir(/home/taat138/domains/uin.in.ua/public_html/test/resources/backup): failed to open dir: No such file or directory in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 13
+[23-Aug-2017 21:26:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on boolean in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php:14
+Stack trace:
+#0 /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/qry_Main.php(11): getDirStruct('/home/taat138/d...')
+#1 /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/fbx_Switch.php(23): include('/home/taat138/d...')
+#2 /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx_Fusebox3.0_PHP4.1.x.php(256): include('/home/taat138/d...')
+#3 /home/taat138/domains/uin.in.ua/public_html/test/virab/index.php(9): require_once('/home/taat138/d...')
+#4 {main}
+  thrown in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 14
+[30-Aug-2017 08:37:08 UTC] PHP Warning:  dir(/home/taat138/domains/uin.in.ua/public_html/test/resources/backup) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 13
+[30-Aug-2017 08:37:08 UTC] PHP Fatal error:  Call to a member function read() on a non-object in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 14
+[30-Aug-2017 11:01:39 UTC] PHP Warning:  dir(/home/taat138/domains/uin.in.ua/public_html/test/resources/backup) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 13
+[30-Aug-2017 11:01:39 UTC] PHP Fatal error:  Call to a member function read() on a non-object in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 14
+[30-Aug-2017 14:23:23 UTC] PHP Warning:  dir(/home/taat138/domains/uin.in.ua/public_html/test/resources/backup) [<a href='function.dir'>function.dir</a>]: failed to open dir: No such file or directory in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 13
+[30-Aug-2017 14:23:23 UTC] PHP Fatal error:  Call to a member function read() on a non-object in /home/taat138/domains/uin.in.ua/public_html/test/virab/fbx/admin/backup/functions.php on line 14
+[12-Sep-2017 22:33:47 Europe/Moscow] PHP Warning:  dir(/home/ammas122/domains/sportmm.ru/public_html/resources/backup): failed to open dir: No such file or directory in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/backup/functions.php on line 13
+[12-Sep-2017 22:33:47 Europe/Moscow] PHP Fatal error:  Call to a member function read() on boolean in /home/ammas122/domains/sportmm.ru/public_html/virab/fbx/admin/backup/functions.php on line 14

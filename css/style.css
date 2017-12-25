@@ -173,7 +173,7 @@ body {
 }
 
 .main {
-  width: 980px;
+  width: 1180px;
   margin: auto;
   position:relative;
   zoom: 1;
@@ -380,7 +380,7 @@ font-family: Chevin-b;
   background: none;
 }
 .header .ico-menu {
-  width: 965px;
+  width: 1165px;
     height: 151px;
     position: absolute;
     top: 294px;
@@ -393,7 +393,7 @@ font-family: Chevin-b;
 .ico-menu ul {
   display: inline-block;
     position: relative;
-    width: 645px;
+    width: 745px;
     margin-top: 31px;
 }
 
@@ -406,7 +406,7 @@ div.categoryTopLower .ico-menu ul{
     text-align: center;
     padding: 0px 2px 1px;
     position: relative;
-    width: 102px;
+    width: 120px;
     line-height: 3px;
 }
 .header .ico-menu ul li a {
@@ -453,7 +453,7 @@ div.categoryTopLower .ico-menu ul{
   height: 75px;
   position: absolute;
   top: 20px;
-  left: 663px;
+  left: 850px;
   background: url('/images/ico/search-red.png?1379325138') no-repeat 0 0;
 }
 .header .ico-menu .search .title {
@@ -493,7 +493,7 @@ div.categoryTopLower .ico-menu ul{
   height: 166px;
 }
 .footer .footer-in {
-  width: 980px;
+  width: 1180px;
   margin: 0 auto;
   position: relative;
 }
@@ -504,13 +504,13 @@ div.categoryTopLower .ico-menu ul{
   position: absolute;
   background: url('/images/footer-logo.png?1379325137') no-repeat;
   top: 19px;
-  left: 76px;
+  left: 176px;
   z-index: 1;
 }
 .footer .footer-in .copyright {
   position: absolute;
   top: 105px;
-  left: 109px;
+  left: 209px;
 }
 .footer .footer-in .copyright p {
   font: 14px Trebuchet;
@@ -555,11 +555,11 @@ div.categoryTopLower .ico-menu ul{
   height: 77px;
   overflow: hidden;
   margin: 0 auto;
-  width: 860px !important;
+  width: 1030px !important;
 }
 .slider ul {
   display: block;
-  margin-left: 531px !important;
+  margin-left: 542px !important;
 }
 .slider ul li {
   width: 137px;
@@ -587,7 +587,7 @@ div.categoryTopLower .ico-menu ul{
 }
 .slider-container button.next {
   background-position: -30px 0;
-  left: 930px;
+  left: 1150px;
 }
 
 .bottom-container {
@@ -614,12 +614,12 @@ div.categoryTopLower .ico-menu ul{
 }
 
 .news-articles-encyclopedy {
-  width: 860px;
+  width: 1060px;
   margin: 10px auto;
 }
 .news-articles-encyclopedy .news, .news-articles-encyclopedy .articles, .news-articles-encyclopedy .encyclopedy {
   float: left;
-  width: 263px;
+  width: 330px;
   margin-right: 35px;
 }
 .news-articles-encyclopedy .news .title, .news-articles-encyclopedy .articles .title, .news-articles-encyclopedy .encyclopedy .title {
@@ -866,7 +866,7 @@ div.categoryTopLower .ico-menu ul{
 }
 
 .middle {
-  width: 943px;
+  width: 1143px;
   margin: -13px 0 0 34px;
   padding-top: 13px;
   min-height: 200px;
@@ -874,7 +874,7 @@ div.categoryTopLower .ico-menu ul{
 }
 .middle .sidebar {
   background: #fff;
-  width: 235px;
+  width: 335px;
   float: right;
   padding-left: 20px;
 }
@@ -882,7 +882,7 @@ div.categoryTopLower .ico-menu ul{
   margin-top: 10px;
   padding-left: 39px;
   margin-right: 20px;
-  width: 655px;
+  width: 755px;
 }
 .middle .hot-deals, .middle .wow-effect, .middle .every-day {
   margin-bottom: 20px;
@@ -1666,8 +1666,8 @@ p.data_price_att {
 /*   display: inline-block;*/
    float:left;
    text-align: center;
-   width: 181px;
-   height: 288px;
+   width: 214px;
+   height: 341px;
 /*   margin: 0 13px;*/
    margin-right:13px;
    -webkit-border-radius: 25px;
@@ -1769,7 +1769,7 @@ p.data_price_att {
     -moz-transform: translateX(-177px);
     -o-transform: translateX(-177px);
     -webkit-transform: translateX(-177px);
-    transform: translateX(-177px);    
+    transform: translateX(-177px);
 }
 	
 .slider a img {

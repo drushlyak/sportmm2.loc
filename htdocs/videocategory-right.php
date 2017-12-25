@@ -28,7 +28,7 @@ if ($positionOfMaskCatalog === 0 && isset ($chpuFromUri)) { //если URI на�
             $resultOfTagsValues = $db->get_all($sqlQueryOfTagsValues);
             $currentVideoUrl = $resultOfTagsValues [0][$currentVideoCell];
                 if ($currentVideoUrl != "" ) {
-                    echo '<iframe width="200" height="120" src="http://www.youtube.com/embed/' . $currentVideoUrl . '" frameborder="0" allowfullscreen></iframe>';
+                    echo '<iframe width="300" height="150" src="http://www.youtube.com/embed/' . $currentVideoUrl . '" frameborder="0" allowfullscreen></iframe>';
                 }
                 }
     }

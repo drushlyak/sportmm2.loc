@@ -1,0 +1,3 @@
+[25-Dec-2017 15:58:29 Europe/Moscow] PHP Parse error:  syntax error, unexpected ''root);' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp\htdocs\sportmm.loc\conf\db.connect.cfg.php on line 6
+[25-Dec-2017 15:59:29 Europe/Moscow] PHP Notice:  Undefined index: page in C:\xampp\htdocs\sportmm.loc\library\libcruiser4\Functions.php on line 283
+[25-Dec-2017 15:59:29 Europe/Moscow] PHP Notice:  Undefined index: wile in C:\xampp\htdocs\sportmm.loc\library\libcruiser4\Functions.php on line 301
